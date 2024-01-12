@@ -1,15 +1,14 @@
-// Importing necessary libraries and styles
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import "../assets/css/fontawesome.css";
-import "../assets/css/templatemo-sixteen.css";
-
-// React component for navigation
+import React, { useState } from "react";
+import "./nav.css";
+import "../../assets/css/fontawesome.css";
 export default function Nav() {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+  const handleToggleClick = () => {
+    setIsNavOpen(!isNavOpen);
+  };
   return (
     <header className="">
-      <nav className="navbar navbar-expand-lg">
+      <nav className={`navbar navbar-expand-lg ${isNavOpen ? "active" : ""}`}>
         <div className="container">
           <a className="navbar-brand" href="index.html">
             <h2>
@@ -19,15 +18,11 @@ export default function Nav() {
           <button
             className="navbar-toggler"
             type="button"
-            data-toggle="collapse"
-            data-target="#navbarResponsive"
-            aria-controls="navbarResponsive"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            onClick={handleToggleClick}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarResponsive">
+          <div className={`collapse navbar-collapse ${isNavOpen ? "show" : ""}`}  id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
                 <a className="nav-link" href="index.html">
