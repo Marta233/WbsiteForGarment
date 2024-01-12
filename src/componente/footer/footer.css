@@ -678,11 +678,11 @@ section {
 -----------------------------------------*/
 .footer_mergin {
     margin-top: 110px;
+    padding: px;
    
 }
 .site-footer {
     background: var(--dark-color);
-    padding-top: 5rem;
     padding-bottom: 5rem;
 }
 /* .site_mapp{
