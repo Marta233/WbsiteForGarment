@@ -1,6 +1,6 @@
 import React from 'react'
 import "./product.css"
-import img4 from "../../assets/Image/product/img1.jpg"
+import img4 from "../../assets/Image/product/img1.png"
 import img5 from "../../assets/Image/product/img2.png"
 import img6 from "../../assets/Image/product/img3.png"
 
