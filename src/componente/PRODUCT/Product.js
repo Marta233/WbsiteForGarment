@@ -1,8 +1,8 @@
 import React from 'react'
 import "./product.css"
-import img4 from "../../assets/Image/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg"
-import img5 from "../../assets/Image/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg"
-import img6 from "../../assets/Image/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg"
+import img4 from "../../assets/Image/product/img1.jpg"
+import img5 from "../../assets/Image/product/img2.png"
+import img6 from "../../assets/Image/product/img3.png"
 
 function Product() {
     return (
@@ -10,7 +10,12 @@ function Product() {
         <section className="featured-product section-padding">
  <div className="container">
    <div className="row">
-
+   <div className="col-12 text-center">
+   <h2 className="mb-5">WELCOME</h2>
+      <p className="col-12 paragraph-style">
+        ASBM is owned and established as a business firm by visionary young & dynamic Ethiopian entrepreneurs family in the year of 2006. Backed on the earlier rooted family business experience in various lines of operation and reviewing the recurrent Ethiopian business dynamism tailored with courageous business environment, the company has strategically affixed its platform and involved in the textile industry.
+      </p>
+     </div>
      <div className="col-12 text-center">
        <h2 className="mb-5">Featured Products</h2>
      </div>

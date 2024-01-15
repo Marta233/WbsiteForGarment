@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./nav.css";
 import "../../assets/css/fontawesome.css";
+import { Link, NavLink} from "react-router-dom";
+import img1 from '../../assets/logo-removebg-preview.png'
 export default function Nav() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const handleToggleClick = () => {
@@ -10,11 +12,12 @@ export default function Nav() {
     <header className="">
       <nav className={`navbar navbar-expand-lg ${isNavOpen ? "active" : ""}`}>
         <div className="container">
-          <a className="navbar-brand" href="index.html">
-            <h2>
-              Sixteen <em>Clothing</em>
-            </h2>
-          </a>
+        
+        <Link className="navbar-brand" to="/">
+            <div className="brand-logo">
+              <img src={img1} alt="Logo" className="logo-image" />
+            </div>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -22,27 +25,27 @@ export default function Nav() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className={`collapse navbar-collapse ${isNavOpen ? "show" : ""}`}  id="navbarResponsive">
+          <div className={`collapse navbar-collapse ${isNavOpen ? "show" : ""}`} id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item active">
-                <a className="nav-link" href="index.html">
+              <li className="nav-item">
+                <NavLink exact to="/" className="nav-link">
                   Home
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="products.html">
+                <NavLink to="/products" className="nav-link">
                   Our Products
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="about.html">
+                <NavLink to='/about' className="nav-link">
                   About Us
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="contact.html">
+                <NavLink to='/contact' className="nav-link">
                   Contact Us
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>

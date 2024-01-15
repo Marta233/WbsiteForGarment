@@ -52,8 +52,17 @@ body {
 	  text-align: center;
 	  transition: all .3s;
   }
-  
-  ul.social-icons li a:hover {
+  .navbar .navbar-brand .brand-logo .logo-image {
+	position: absolute;
+	height: auto;
+	max-width: 150px;
+	top: 40px;
+} 
+  .navbar-nav{
+	margin-bottom: 30px;
+	
+  }
+  .ul.social-icons li a:hover {
 	  background-color: #f33f3f;
 	  color: #fff;
   }
@@ -227,25 +236,8 @@ header .navbar {
 .background-header .navbar-nav .show>.nav-link {
 	color: #f33f3f!important;
 }
-.navbar .navbar-brand {
-	float: 	left;
-	margin-top: -12px;
-	outline: none;
-}
-.navbar .navbar-brand h2 {
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 24px;
-	font-weight: 700;
-	-webkit-transition: all .3s ease 0s;
-    -moz-transition: all .3s ease 0s;
-    -o-transition: all .3s ease 0s;
-    transition: all .3s ease 0s;
-}
-.navbar .navbar-brand h2 em {
-	font-style: normal;
-	color: #f33f3f;
-}
+
+
 #navbarResponsive {
 	z-index: 999;
 }
@@ -267,13 +259,12 @@ header .navbar {
 	margin-top: 5px;
 }
 .navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .active>.nav-link,
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link.show,
-.navbar .navbar-nav .show>.nav-link {
-	color: #fff;
-	padding-bottom: 25px;
-	border-bottom: 3px solid #f33f3f;
+.navbar .navbar-nav .show .nav-link {
+  color: #fff;
+  padding-bottom: 25px;
+  border-bottom: 3px solid #f33f3f;
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
@@ -285,7 +276,7 @@ header .navbar {
 	outline: none;
 	border-radius: 0px;
 	position: absolute;
-	right: 30px;
+	right: 40px;
 	top: 20px;
 }
 .navbar .navbar-toggler-icon:after {
@@ -295,8 +286,10 @@ header .navbar {
 	line-height: 26px;
 	font-family: 'FontAwesome';
 }
-.navbar-nav{
-padding-left: 500px;
+@media (min-width: 998px) {
+	.navbar-nav{
+				padding-left: 800px;
+			}
 }
 
 @media (max-width: 992px) {
@@ -306,14 +299,17 @@ padding-left: 500px;
 		transition: height 0.5s ease; /* Adjust the duration as needed */
 	  }
 	
+
 	  .navbar .navbar-collapse.show {
 		max-height: 500px; /* Adjust the max-height value based on your content */
 	  }
-	.navbar .navbar-brand {
+	.navbar .navbar-brand .brand-logo .logo-image {
 		position: absolute;
 		left: 30px;
-		top: 32px;
-	}
+		height: auto;
+		max-width: 150px;
+		top: 40px;
+	} 
 	.navbar .navbar-brand {
 		width: auto;
 	}
@@ -364,7 +360,9 @@ padding-left: 500px;
 		bottom: 0;
 	}
 }
-
+.navbar-brand .brand-logo .logo-image {
+	margin-top: -80px;
+}
 .product-item .down-content ul li {
 	display: inline-block;
 }
