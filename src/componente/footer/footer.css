@@ -574,12 +574,6 @@ section {
     content-visibility: auto;
     contain-intrinsic-size: 700px;
 }
-
-.section-padding {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-}
-
 .featured {
     background: var(--section-bg-color);
 }
@@ -646,33 +640,6 @@ section {
 #cart-modal .modal-footer {
     padding: 2rem 4rem;
 }
-
-/*---------------------------------------
-  SKILL - PROGRESS BAR               
------------------------------------------*/
-.skill-thumb strong {
-    display: inline-block;
-    margin-bottom: 6px;
-}
-
-.skill-thumb span {
-    color: var(--dark-color);
-    font-size: 24px;
-    font-weight: var(--font-weight-bold);
-}
-
-.skill-thumb .progress {
-    background: var(--white-color);
-    box-shadow: none;
-    border-radius: 100px;
-    height: 1px;
-    margin-bottom: 16px;
-}
-
-.skill-thumb .progress .progress-bar-primary {
-    background: var(--grey-color);
-}
-
 /*---------------------------------------
   SITE FOOTER               
 -----------------------------------------*/

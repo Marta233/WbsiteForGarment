@@ -2,29 +2,27 @@
 .banner {
     position: relative;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 40px;
 }
-
 .banner-item {
-    padding: 300px 0;
+    padding: 200px 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    max-height: 600px;
 }
-
 .banner-item-01 {
-    background-image: url('../../assets/images/slider_img1.jpg');
+    background-image: url('../../assets/images/slider_img1.jpg');   
 }
-
 .banner-item-02 {
     background-image: url('../../assets/images/slide_02.jpg');
 }
-
 .banner-item-03 {
     background-image: url('../../assets/images/slide_03.jpg');
 }
-
+.banner-item-03 img {
+    max-height: 20px;
+   
+}
 .banner-item .text-content {
     top: 50%;
     transform: translateY(-50%);
@@ -47,38 +45,6 @@
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
-
-.owl-dots .owl-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin: 0 10px;
-    background-color: #fff;
-    opacity: 0.5;
-}
-
-.owl-dots .owl-dot:focus {
-    outline: none;
-}
-
-.owl-dots .owl-dot.active {
-    background-color: #fff;
-    opacity: 1;
-}
-
-.owl-banner .owl-dots .owl-dot {
-    border-radius: 3px;
-}
-
-.owl-banner .owl-dots {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 30px;
-}
-
 @media (max-width: 768px) {
     .banner .text-content {
 		width: 90%;
@@ -105,4 +71,31 @@
 		font-size: 36px;
 		letter-spacing: 0.5px;
 	}
+}
+/* Style for the custom dots */
+/* Your existing style for .slick-dots li button */
+.slick-dots li button {
+    /* Your existing styles here */
+}
+
+/* Style for your custom dots */
+.slick-dots .custom-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border: none;
+    border-radius: 90%;
+    margin-right: 5px;
+  position: relative;
+    filter: blur(2px);
+    transition: filter 0.3s ease;
+    margin-top: -40px;
+    /* Move all dots upward */
+}
+
+/* Override styles for the active dot */
+.slick-dots .custom-dot.active {
+    background-color: #fff !important;
+    filter: none !important;
+    /* You can leave or adjust the margin-top for the active dot if needed */
 }
