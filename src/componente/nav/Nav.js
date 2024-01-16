@@ -11,13 +11,18 @@ export default function Nav() {
   return (
     <header className="">
       <nav className={`navbar navbar-expand-lg ${isNavOpen ? "active" : ""}`}>
-        <div className="container">
-        
+        <div className="container">   
         <Link className="navbar-brand" to="/">
             <div className="brand-logo">
               <img src={img1} alt="Logo" className="logo-image" />
             </div>
           </Link>
+          <Link to="index.html" className="navbar-brand1">
+      <ul className="flex-container">
+        <li className="uppercase">Mele</li>
+         <li className="lowercase">Textile</li>
+      </ul>
+    </Link>
           <button
             className="navbar-toggler"
             type="button"

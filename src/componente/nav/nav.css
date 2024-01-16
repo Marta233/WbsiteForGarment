@@ -286,12 +286,21 @@ header .navbar {
 	line-height: 26px;
 	font-family: 'FontAwesome';
 }
-@media (min-width: 998px) {
+@media (min-width: 991px) {
 	.navbar-nav{
-				padding-left: 800px;
+				padding-left: 400px;
 			}
 }
-
+@media (min-width: 1200px) {
+	.navbar-nav{
+				padding-left: 600px;
+			}
+}
+@media (min-width: 1400px) {
+	.navbar-nav{
+				padding-left: 400px;
+			}
+}
 @media (max-width: 992px) {
 	.navbar .navbar-collapse {
 		max-height: 0;
@@ -373,15 +382,38 @@ header .navbar {
 }
 
 .product-item .down-content span {
-	position: absolute;
 	right: 30px;
 	bottom: 30px;
 	font-size: 13px;
 	color: #f33f3f;
 	font-weight: 500;
 }
-
-
+.navbar .navbar-brand1 {
+	float: 	left;
+	margin-top: -50px;
+	margin-left: 120px;
+	outline: none;
+}
+.navbar .navbar-brand1  .lowercase  {
+	align-items: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: 700;
+  }
+  
+  .navbar .navbar-brand1  .uppercase {
+	font-style: normal;
+	color: #f33f3f;
+	margin-left: 10px;
+	font-weight: 700;
+	font-size: 24px;
+  }
+  .navbar-brand1 {
+	margin-top: -50px;
+	margin-left: 110px;
+	outline: none;
+  }
 
 
 
