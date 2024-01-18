@@ -228,6 +228,39 @@ body {
       margin-bottom: 20px;
   }
   
+  .ParagraphMain{
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+  .ParagraphMain p{
+    font-family: Lato;
+    max-width: 100%;
+    padding: 0 20px;
+    text-align: justify;
+    color: #6c757d!important;
+  }
+  .AboutMainContaint h2{
+    margin: 25px 0;
+    text-align: center;
+  }
+  .paragraphbottom1{
+    margin-top: 70px;
+    margin-left: 20px;
+  }
+  .paragraphbottom2{
+    margin-top: 168px;
+  }
+  .aboutVision{
+    width: 70%;
+    display: flex;
+    
+  }
+  .aboutVision .aboutImg1{
+    width: 60%;
+    height: auto;
+  }
+ 
   
   
   
