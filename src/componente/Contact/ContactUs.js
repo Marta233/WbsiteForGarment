@@ -10,6 +10,7 @@ function ContactUs() {
     // Handle form submission
     console.log(data);
   };
+
   const mapContainerStyle = {
     flex: "1", // Use flex property to take up remaining space
     minHeight: "400px", // Set a minimum height for the map
@@ -48,13 +49,9 @@ function ContactUs() {
           </div>
         </div>
       </div>
-      <div>
-        <h2>Contact For Any Query</h2>
-      </div>
       <div className="container contact_us">
         <div className="row">
-          <div className="formss col-12 col-sm-6 col-lg-6 wow fadeInLeft">
-            <h2>Send Us a Message</h2>
+          <div className="col-12 col-sm-6  col-lg-6  wow fadeInLeft">
             <form className="fables-contact-form">
               <div className="form-group">
                 <input
@@ -92,9 +89,8 @@ function ContactUs() {
               </button>
             </form>
           </div>
-          <div className="maps col-12 col-sm-6 col-lg-6 d-flex align-items-center justify-content-center">
+          <div className="col-12 col-sm-6 col-lg-6 d-flex align-items-center justify-content-center">
             <div style={{ flex: "1", minHeight: "400px" }}>
-              <h2>Our Location On Map</h2>
               <GoogleMap
                 mapContainerStyle={mapContainerStyle}
                 zoom={zoom}
