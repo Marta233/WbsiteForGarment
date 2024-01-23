@@ -1,11 +1,9 @@
 import React from "react";
 import "./product.css";
-import img4 from "../../assets/Image/product/img1.png";
-import img5 from "../../assets/Image/product/img2.png";
-import img6 from "../../assets/Image/product/img3.png";
-import img7 from "../../assets/Image/product/img4.png";
-import img8 from "../../assets/Image/product/img5.png";
-import img9 from "../../assets/Image/product/anis-m-WnVrO-DvxcE-unsplash.jpeg";
+import img4 from "../../assets/Image/product/img1 (2).png";
+import img5 from "../../assets/Image/product/img2 (2).png";
+import img6 from "../../assets/Image/product/img3 (2).png";
+import img9 from "../../assets/Image/slideshow/istockphoto-1279917988-612x612.jpg";
 
 function Product() {
   return (
@@ -74,7 +72,6 @@ function Product() {
             <div className="col-lg-4 col-12 mb-3">
               <div className="product-thumb">
                 <img src={img4} className="img-fluid product-image1" alt="" />
-                <img src={img8} className="img-fluid product-image1" alt="" />
 
                 <div className="product-top d-flex">
                   <a href="#" className="bi-heart-fill product-icon"></a>
@@ -99,7 +96,6 @@ function Product() {
               <div className="product-thumb">
                 <a href="product-detail.html">
                   <img src={img5} className="img-fluid product-image1" alt="" />
-                  <img src={img7} className="img-fluid product-image1" alt="" />
                 </a>
                 <div className="product-top d-flex">
                   <a href="#" className="bi-heart-fill product-icon"></a>

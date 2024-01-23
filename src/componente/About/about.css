@@ -213,7 +213,7 @@ body {
      /* Green background color */
      border: none;
      /* White text color */
-     padding: 10px 140px;
+     padding: 10px 190px;
      /* Add some padding */
      text-align: center;
      text-decoration: none;
@@ -228,6 +228,7 @@ body {
      background-color: #f33f3f;
      /* Darker green on hover */
  }
+
   @media (max-width: 650px) {
     .ParagraphMain.hidden {
             display: none !important;
@@ -249,7 +250,7 @@ body {
                                     width: 100%;
                                 }
   }
-   @media (max-width: 1000px) {
+   @media (max-width: 480px) {
 .aboutVision1 {
         width: 70%;
         display: block;
@@ -268,7 +269,7 @@ body {
          }
                  .aboutImg1,
                  .aboutImg2 {
-                width:70%;
+                width:90%;
                  }
                  .aboutVision2 p {
                     width: 200%;
@@ -282,9 +283,59 @@ body {
                                  }
                                                                  .MainLeadership {
                                                                     margin-top: 200px;
+                                                                    
+                                                                 }
+                                                                 .Leaders{
+                                                                    display: block;
                                                                  }
                   
    }
+
+
+
+
+        @media (max-width: 993px) {
+            .aboutVision1 {
+                width: 70%;
+                display: block;
+                margin: auto;
+                top: 60px;
+            }
+    
+            .aboutVision2 {
+                width: 70%;
+                display: block;
+                margin: auto;
+                top: 150px;
+                position: relative;
+            }
+    
+            .Vision h2 {
+                margin-top: -100px
+            }
+    
+            .aboutImg1,
+            .aboutImg2 {
+                width: 90%;
+            }
+    
+            .aboutVision2 p {
+                width: 200%;
+                margin: auto;
+                padding: 30px 700px;
+            }
+    
+            .aboutVision2 p {
+                width: 400%;
+                margin: auto;
+                padding: 30px 0;
+            }
+    
+            .MainLeadership {
+                margin-top: 200px;
+            }
+    
+        }
   
   
   

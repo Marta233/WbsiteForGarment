@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import "./footer.css"
+import "./footer.css";
 export default function MyFooter() {
   return (
     <footer className="site-footer">
@@ -8,18 +8,12 @@ export default function MyFooter() {
         <div className="main_foot">
           <div className="lists">
             <h4 className="text-white mb-3">
-              <a href="index.html">Little</a> Fashion
+              <a href="index.html">Mele</a> Textile
             </h4>
             <p className="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">
-              Copyright © 2022 <strong>Little Fashion</strong>
+              Copyright © 2022
             </p>
             <br />
-            <p className="copyright-text">
-              Designed by
-              <a href="https://www.tooplate.com/" target="_blank">
-                Tooplate
-              </a>
-            </p>
           </div>
           <div className="lists">
             <h5 className="text-white mb-3">Sitemap</h5>

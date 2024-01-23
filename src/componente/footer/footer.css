@@ -35,7 +35,7 @@ https://www.tooplate.com/view/2127-little-fashion
 .main_foot{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-top: 90px;
 }
 
 body,
@@ -728,7 +728,6 @@ section {
 @media screen and (max-width: 750px) {
     .main_foot {
         display: block;
-        align-items: center;
         width: 100%;
         margin: 0px 25%;
     }
