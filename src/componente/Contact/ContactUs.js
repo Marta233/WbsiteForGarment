@@ -1,5 +1,20 @@
 import React from "react";
 import "./contact.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMapMarkerAlt,
+  faEnvelope,
+  faHandshake,
+  faFacebook,
+  faTelegram,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebookSquare,
+  faTelegramPlane,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import redMarkerIcon from "./red.png"; // No need for directory changes
 import { useForm } from "react-hook-form";
@@ -49,9 +64,94 @@ function ContactUs() {
           </div>
         </div>
       </div>
+      <div className="container contact_info">
+        <div className="row">
+          <div className="col-12 col-lg-4 col-s-4 fadeInLeft">
+            <FontAwesomeIcon
+              icon={faMapMarkerAlt}
+              style={{
+                fontSize: "2rem",
+                color: "red",
+                marginLeft: "70px",
+                marginBottom: "10px",
+              }}
+            />{" "}
+            <h5>Address</h5>
+            <p>Kolfe, Efoyta Market place, 4th Flore</p>
+          </div>
+          <div className="col-12 col-lg-4 col-s-4">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              style={{
+                fontSize: "2rem",
+                color: "red",
+                marginLeft: "70px",
+                marginBottom: "10px",
+              }}
+            />{" "}
+            <h5>Email and Phone</h5>
+            <p>example@gmail.com</p>
+            <p>0923234545</p>
+          </div>
+          <div className="col-12 col-lg-4 col-s-4">
+            <FontAwesomeIcon
+              icon={faHandshake}
+              style={{
+                fontSize: "2rem",
+                color: "red",
+                marginLeft: "70px",
+                marginBottom: "10px",
+              }}
+            />
+            <h5>Stay In Touch</h5>
+            <p
+              style={{
+                marginLeft: "30px",
+              }}
+            >
+              {" "}
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faFacebookSquare}
+                  style={{
+                    fontSize: "1.5rem",
+                    color: "#3b5998",
+                    marginRight: "10px",
+                  }}
+                />
+              </a>
+              <a href="https://t.me" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon
+                  icon={faTelegramPlane}
+                  style={{
+                    fontSize: "1.5rem",
+                    color: "#0088cc",
+                    marginRight: "10px",
+                  }}
+                />
+              </a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  style={{ fontSize: "1.5rem", color: "#e4405f" }}
+                />
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="container contact_us">
         <div className="row">
           <div className="col-12 col-sm-6  col-lg-6  wow fadeInLeft">
+            <h1></h1>
             <form className="fables-contact-form">
               <div className="form-group">
                 <input

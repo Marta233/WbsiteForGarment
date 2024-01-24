@@ -14,10 +14,10 @@
     background-image: url('../../assets/images/slider_img1.jpg');   
 }
 .banner-item-02 {
-    background-image: url('../../assets/images/slide_02.jpg');
+    background-image: url('../../assets/Image/slideshow/slid-img2.jpg');
 }
 .banner-item-03 {
-    background-image: url('../../assets/images/slide_03.jpg');
+    background-image: url('../../assets/Image/slideshow/slid-img3.jpg');
 }
 .banner-item-03 img {
     max-height: 20px;
