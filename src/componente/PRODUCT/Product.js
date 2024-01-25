@@ -69,7 +69,9 @@ function Product() {
             <div className="col-12 text-center">
               <h2 className="mb-5">Our Products</h2>
             </div>
-            <div className="col-lg-4 col-12 mb-3">
+            <div className="container"> 
+              <div className="row">
+            <div className="col-lg-4 col-12 col-s-4 mb-3">
               <div className="product-thumb">
                 <img src={img4} className="img-fluid product-image1" alt="" />
 
@@ -92,7 +94,7 @@ function Product() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-12 mb-3">
+            <div className="col-lg-4 col-12 col-s-4 mb-3">
               <div className="product-thumb">
                 <a href="product-detail.html">
                   <img src={img5} className="img-fluid product-image1" alt="" />
@@ -115,7 +117,7 @@ function Product() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-12 mb-3">
+            <div className="col-lg-4 col-12 col-s-4 mb-3">
               <div className="product-thumb">
                 <a href="product-detail.html">
                   <img src={img6} className="img-fluid product-image" alt="" />
@@ -137,8 +139,9 @@ function Product() {
                   </div>
                 </div>
               </div>
+              </div>
             </div>
-
+            </div>
             {/* Repeat similar structure for other products... */}
             <div className="col-12 text-center">
               <a href="products.html" className="view-all">
@@ -163,5 +166,4 @@ function Product() {
     </>
   );
 }
-
 export default Product;
