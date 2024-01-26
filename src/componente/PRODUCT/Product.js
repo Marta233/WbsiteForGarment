@@ -36,7 +36,7 @@ function Product() {
 
                   <div className="col-lg-6 col-12 order-lg-2 order-1">
                     <div className="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                      <h4 className="mb-3">
+                      <h4 className="mb-3 aboutredirecttitle" >
                         Good <span className="text-primary">Design</span> <br />
                         Ideas for <span className="text-primary">
                           your
@@ -44,7 +44,7 @@ function Product() {
                         fashion
                       </h4>
 
-                      <p>
+                      <p className="paragraph-style2 ">
                         Mele Textile, owned and established as a business firm
                         by visionary young & dynamic Ethiopian entrepreneurs
                         family in the year of 2006. With a strong foundation
@@ -55,7 +55,7 @@ function Product() {
                       </p>
 
                       <div className="mt-2 mt-lg-auto">
-                        <a href="about.html" className="btn btn-primary">
+                        <a href="about.html" className="aboutredirect btn btn-primary">
                           Learn more about us{" "}
                           <i className="bi bi-arrow-right ms-2"></i>
                         </a>

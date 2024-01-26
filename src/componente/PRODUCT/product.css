@@ -98,6 +98,23 @@
     text-align:justify; /* Justify the content */
     /* Add any other styles you find attractive */
   }
+  .paragraph-style2  {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    color: #555;
+    text-align:justify; /* Justify the content */
+    /* Add any other styles you find attractive */
+  }
+  .aboutredirect{
+    margin-top: 30px;
+    margin-left: 110px;
+  }
+  .aboutredirecttitle{
+    
+  }
   @media (max-width: 991px) {
     .paragraph-style {
         margin-left: 30px;
@@ -129,3 +146,4 @@
       background-color: #f33f3f;
       /* Change background color on hover */
   }
+ 
