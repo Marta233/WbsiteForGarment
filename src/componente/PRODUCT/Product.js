@@ -4,6 +4,7 @@ import img4 from "../../assets/Image/product/img1 (2).png";
 import img5 from "../../assets/Image/product/img2 (2).png";
 import img6 from "../../assets/Image/product/img3 (2).png";
 import img9 from "../../assets/Image/slideshow/istockphoto-1279917988-612x612.jpg";
+import { Link } from "react-router-dom";
 
 function Product() {
   return (
@@ -54,11 +55,11 @@ function Product() {
                         industry.
                       </p>
 
-                      <div className="mt-2 mt-lg-auto">
-                        <a href="about.html" className="aboutredirect btn btn-primary">
-                          Learn more about us{" "}
+                      <div className="aboutredirect1">
+                        <Link to="/About" className="aboutredirectLink">
+                          Learn more about us
                           <i className="bi bi-arrow-right ms-2"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -144,9 +145,9 @@ function Product() {
             </div>
             {/* Repeat similar structure for other products... */}
             <div className="col-12 text-center">
-              <a href="products.html" className="view-all">
+              <Link to="/ProductDetails" className="view-all">
                 View All Products
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-12 text-center">
@@ -159,7 +160,11 @@ function Product() {
               and creat dependable supply, the company strategically planned to
               establish spinning & cotton farming in near future.
             </p>
-            <button className="cta-button">Learn More</button>
+            <div className="aboutredirect">
+            <Link className="aboutredirectLink" to = '/About'>Learn More
+            <i className="bi bi-arrow-right ms-2"></i>
+            </Link>
+          </div>
           </div>
         </div>
       </section>

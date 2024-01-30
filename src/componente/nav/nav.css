@@ -149,6 +149,11 @@ header .navbar {
 		padding-left: 300px;
 	}
 }
+@media (min-width: 1400px) {
+	.navbar-nav {
+		padding-left: 500px;
+	}
+}
 @media (max-width: 450px) {
 	.flex-container {
 		display: none;

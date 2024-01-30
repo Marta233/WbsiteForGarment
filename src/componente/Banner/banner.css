@@ -70,12 +70,6 @@
 		letter-spacing: 0.5px;
 	}
 }
-/* Style for the custom dots */
-/* Your existing style for .slick-dots li button */
-.slick-dots li button {
-    /* Your existing styles here */
-}
-
 /* Style for your custom dots */
 .slick-dots .custom-dot {
     width: 10px;
@@ -90,7 +84,6 @@
     margin-top: -40px;
     /* Move all dots upward */
 }
-
 /* Override styles for the active dot */
 .slick-dots .custom-dot.active {
     background-color: #fff !important;

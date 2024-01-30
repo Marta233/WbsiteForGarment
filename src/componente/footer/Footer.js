@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./footer.css";
+import { Link } from "react-router-dom";
 export default function MyFooter() {
   return (
     <footer className="site-footer">
@@ -8,7 +9,7 @@ export default function MyFooter() {
         <div className="main_foot">
           <div className="lists">
             <h4 className="text-white mb-3">
-              <a href="index.html">Mele</a> Textile
+              <Link to="/">Mele Textile </Link>
             </h4>
             <p className="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">
               Copyright © 2022
@@ -18,25 +19,25 @@ export default function MyFooter() {
           <div className="lists">
             <h5 className="text-white mb-3">Sitemap</h5>
             <ul className="footer-menu ">
-              <li className="footer-menu-item">
-                <a href="about.html" className="footer-menu-link">
-                  Story
-                </a>
+            <li className="footer-menu-item">
+                <Link to="/" className="footer-menu-link">
+                  Home
+                </Link>
               </li>
               <li className="footer-menu-item">
-                <a href="#" className="footer-menu-link">
-                  Products
-                </a>
+              <Link to="/About" className="footer-menu-link">
+                  About Us
+                </Link>
               </li>
               <li className="footer-menu-item">
-                <a href="#" className="footer-menu-link">
-                  FAQs
-                </a>
+              <Link to="/ProductDetails" className="footer-menu-link">
+                  Product List
+                </Link>
               </li>
               <li className="footer-menu-item">
-                <a href="#" className="footer-menu-link">
-                  Contact
-                </a>
+              <Link to="/Contactus" className="footer-menu-link">
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </div>

@@ -132,6 +132,15 @@ a {
 a:hover {
     color: var(--primary-color);
 }
+.footer-menu-link{
+    color: var(--p-color);
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: all 0.3s;
+}
+.footer-menu-link:hover{
+    color: var(--primary-color);
+}
 
 .text-primary {
     color: var(--primary-color) !important;
