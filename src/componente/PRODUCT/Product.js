@@ -37,7 +37,7 @@ function Product() {
 
                   <div className="col-lg-6 col-12 order-lg-2 order-1">
                     <div className="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                      <h4 className="mb-3 aboutredirecttitle" >
+                      <h4 className="mb-3 aboutredirecttitle">
                         Good <span className="text-primary">Design</span> <br />
                         Ideas for <span className="text-primary">
                           your
@@ -70,78 +70,94 @@ function Product() {
             <div className="col-12 text-center">
               <h2 className="mb-5">Our Products</h2>
             </div>
-            <div className="container"> 
+            <div className="container">
               <div className="row">
-            <div className="col-lg-4 col-12 col-s-4 mb-3">
-              <div className="product-thumb">
-                <img src={img4} className="img-fluid product-image1" alt="" />
-
-                <div className="product-top d-flex">
-                  <a href="#" className="bi-heart-fill product-icon"></a>
+                <div className="col-lg-4 col-12 mb-3">
+                  <div className="product-thumb">
+                    <img
+                      src={img4}
+                      className="img-fluid product-image1"
+                      alt=""
+                    />
+                    <div className="product-top d-flex">
+                      <a href="#" className="bi-heart-fill product-icon"></a>
+                    </div>
+                    <div className="product-info d-flex">
+                      <div>
+                        <h5 className="product-title mb-0">
+                          <a
+                            href="product-detail.html"
+                            className="product-title-link"
+                          >
+                            Female Dress
+                          </a>
+                        </h5>
+                        <p className="product-p">
+                          we have diffrent size and color
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="product-info d-flex">
-                  <div>
-                    <h5 className="product-title mb-0">
-                      <a
-                        href="product-detail.html"
-                        className="product-title-link"
-                      >
-                        Female Dress
-                      </a>
-                    </h5>
-                    <p className="product-p">we have diffrent size and color</p>
+                <div className="col-lg-4 col-12 mb-3">
+                  <div className="product-thumb">
+                    <a href="product-detail.html">
+                      <img
+                        src={img5}
+                        className="img-fluid product-image1"
+                        alt=""
+                      />
+                    </a>
+                    <div className="product-top d-flex">
+                      <a href="#" className="bi-heart-fill product-icon"></a>
+                    </div>
+                    <div className="product-info d-flex">
+                      <div>
+                        <h5 className="product-title mb-0">
+                          <a
+                            href="product-detail.html"
+                            className="product-title-link"
+                          >
+                            Female Dress
+                          </a>
+                        </h5>
+                        <p className="product-p">
+                          we have diffrent size and color
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-12 mb-3">
+                  <div className="product-thumb">
+                    <a href="product-detail.html">
+                      <img
+                        src={img6}
+                        className="img-fluid product-image"
+                        alt=""
+                      />
+                    </a>
+                    <div className="product-top d-flex">
+                      <a href="#" className="bi-heart-fill product-icon"></a>
+                    </div>
+                    <div className="product-info d-flex">
+                      <div>
+                        <h5 className="product-title mb-0">
+                          <a
+                            href="product-detail.html"
+                            className="product-title-link"
+                          >
+                            Ti-shirts
+                          </a>
+                        </h5>
+                        <p className="product-p">
+                          we have diffrent size and color
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div className="col-lg-4 col-12 col-s-4 mb-3">
-              <div className="product-thumb">
-                <a href="product-detail.html">
-                  <img src={img5} className="img-fluid product-image1" alt="" />
-                </a>
-                <div className="product-top d-flex">
-                  <a href="#" className="bi-heart-fill product-icon"></a>
-                </div>
-                <div className="product-info d-flex">
-                  <div>
-                    <h5 className="product-title mb-0">
-                      <a
-                        href="product-detail.html"
-                        className="product-title-link"
-                      >
-                        Female Dress
-                      </a>
-                    </h5>
-                    <p className="product-p">we have diffrent size and color</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-12 col-s-4 mb-3">
-              <div className="product-thumb">
-                <a href="product-detail.html">
-                  <img src={img6} className="img-fluid product-image" alt="" />
-                </a>
-                <div className="product-top d-flex">
-                  <a href="#" className="bi-heart-fill product-icon"></a>
-                </div>
-                <div className="product-info d-flex">
-                  <div>
-                    <h5 className="product-title mb-0">
-                      <a
-                        href="product-detail.html"
-                        className="product-title-link"
-                      >
-                        Ti-shirts
-                      </a>
-                    </h5>
-                    <p className="product-p">we have diffrent size and color</p>
-                  </div>
-                </div>
-              </div>
-              </div>
-            </div>
             </div>
             {/* Repeat similar structure for other products... */}
             <div className="col-12 text-center">
@@ -161,10 +177,11 @@ function Product() {
               establish spinning & cotton farming in near future.
             </p>
             <div className="aboutredirect">
-            <Link className="aboutredirectLink" to = '/About'>Learn More
-            <i className="bi bi-arrow-right ms-2"></i>
-            </Link>
-          </div>
+              <Link className="aboutredirectLink" to="/About">
+                Learn More
+                <i className="bi bi-arrow-right ms-2"></i>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
