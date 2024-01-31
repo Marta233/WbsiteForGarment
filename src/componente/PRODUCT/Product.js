@@ -12,40 +12,52 @@ function Product() {
       <section className="featured-product ">
         <div className="container firstContainer">
           <div className="row">
-            <div className="col-lg-6 col-12 order-lg-1 order-2 imagesprofile">
-              <img
-                src={img9}
-                className="img-fluid rounded shadow"
-                alt="Fashion Image"
-              />
-            </div>
-            <div className="col-lg-6 col-12 order-lg-2 order-1 companyprofile">
-              <div className="col-12 text-center">
-                <h2 className="company_name">
-                  Get started with <span className="text-primary">Mele</span>{" "}
-                  Textile
-                </h2>
-              </div>
-              <p className="company_moto ">
-                Crafting Threads of Style, Weaving Dreams of Fashion.
-              </p>
-              <ul className="productlists">
-                <li>Garment Product</li>
-                <li>Woven and Knitted Fabric</li>
-                <li>Dresses</li>
-              </ul>
-              <div className="buttons">
-                <div className="aboutredirect1">
-                  <Link to="/About" className="aboutredirectLink">
-                    Contact Us
-                    <i className="bi bi-arrow-right ms-2"></i>
-                  </Link>
-                </div>
-                <div className="secondbutoon">
-                  <Link to="/About" className="">
-                    Learn More
-                    <i className="bi bi-arrow-right ms-2"></i>
-                  </Link>
+            <div className="container my-5">
+              <div
+                className="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+              >
+                <div className="row ">
+                  <div className="col-lg-6 col-12 order-lg-1 order-2 imagesprofile">
+                    <img
+                      src={img9}
+                      className="img-fluid rounded shadow"
+                      alt="Fashion Image"
+                    />
+                  </div>
+
+                  <div className="col-lg-6 col-12 order-lg-2 order-1 companyprofile">
+                    <div className="col-12 text-center">
+                      <h2 className="company_name">
+                        Get started with{" "}
+                        <span className="text-primary">Mele</span> Textile
+                      </h2>
+                    </div>
+                    <p className="company_moto ">
+                      Crafting Threads of Style, Weaving Dreams of Fashion.
+                    </p>
+                    <ul className="productlists">
+                      <li>Garment Product</li>
+                      <li>Woven </li>
+                      <li>Dresses</li>
+                    </ul>
+                    <div className="buttons">
+                      <div className="aboutredirect1">
+                        <Link to="/About" className="aboutredirectLink">
+                          Contact Us
+                          <i className="bi bi-arrow-right ms-2"></i>
+                        </Link>
+                      </div>
+                      <div className="secondbutoon">
+                        <Link to="/About" className="">
+                          Learn More
+                          <i className="bi bi-arrow-right ms-2"></i>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -53,14 +65,13 @@ function Product() {
         </div>
 
         <div className="col-12 text-center">
-          <h2 className="mb-5">Our Products</h2>
+          <h4 className="mb-3">Our Products</h4>
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-12 mb-3">
+            <div className="col-lg-4 col-12">
               <div className="product-thumb">
                 <img src={img4} className="img-fluid product-image1" alt="" />
-
                 <div className="product-top d-flex">
                   <a href="#" className="bi-heart-fill product-icon"></a>
                 </div>
@@ -79,8 +90,7 @@ function Product() {
                 </div>
               </div>
             </div>
-
-            <div className="col-lg-4 col-12 mb-3">
+            <div className="col-lg-4 col-12 ">
               <div className="product-thumb">
                 <a href="product-detail.html">
                   <img src={img5} className="img-fluid product-image1" alt="" />
@@ -103,17 +113,17 @@ function Product() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-12 mb-3">
+            <div className="col-lg-4 col-12 ">
               <div className="product-thumb">
                 <a href="product-detail.html">
-                  <img src={img6} className="img-fluid product-image" alt="" />
+                  <img src={img6} className="img-fluid product-image1" alt="" />
                 </a>
                 <div className="product-top d-flex">
                   <a href="#" className="bi-heart-fill product-icon"></a>
                 </div>
                 <div className="product-info d-flex">
                   <div>
-                    <h5 className="product-title mb-0">
+                    <h5 className="product-title">
                       <a
                         href="product-detail.html"
                         className="product-title-link"
@@ -135,7 +145,7 @@ function Product() {
           </Link>
         </div>
         <div className="col-12 text-center">
-          <h2 className="mb-5 mt-5">Future Expansion</h2>
+          <h4 className="mb-4 mt-4">Future Expansion</h4>
           <p className="col-12 paragraph-style">
             ASBM Industrials has legally registered and established as a
             business firm in the yer of 2000 E.C under Ethiopin commercial code,
