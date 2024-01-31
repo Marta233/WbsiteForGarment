@@ -1,6 +1,12 @@
 /*---------------------------------------
   PRODUCT               
 -----------------------------------------*/
+.text-title h2 {
+    margin-top: 40px;
+    margin-left: -60px;
+    text-decoration: underline #f33f3f;
+}
+
 .front-product {
     background: var(--section-bg-color);
 }
@@ -15,8 +21,12 @@
     transition: all 0.5s ease-out;
 }
 
-.product-thumb:hover .product-image {
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+/* product.css */
+.product-image1 {
+    max-width: 100%;
+    max-height: 350px;
+    height: auto;
+    object-fit: cover;
 }
 
 .product-top {
@@ -72,15 +82,8 @@
     border-bottom: 2px solid var(--grey-color);
     padding-bottom: 6px;
 }
-.view-all {
-    text-transform: uppercase;
-    color: var(--p-color);
-    font-size: 13px;
-    font-weight: var(--font-weight-bold);
-    border-bottom: 2px solid var(--grey-color);
-    padding-bottom: 6px;
-}
-.paragraph-style  {
+
+.paragraph-style {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 40px;
@@ -89,65 +92,171 @@
     width: 80%;
     text-align: center;
     color: #555;
-    text-align:justify; /* Justify the content */
+    text-align: justify;
+    /* Justify the content */
     /* Add any other styles you find attractive */
-  }
-  .paragraph-style2  {
+}
+
+.paragraph-style2 {
     font-size: 15px;
     line-height: 1.6;
     margin-top: 5px;
     width: 100%;
     text-align: center;
     color: #555;
-    text-align:justify; /* Justify the content */
+    text-align: justify;
+    /* Justify the content */
     /* Add any other styles you find attractive */
-  }
+}
 
-  @media (max-width: 991px) {
+@media (max-width: 991px) {
     .paragraph-style {
         margin-left: 30px;
     }
 }
-  .fle{
+
+.fle {
     display: flex;
-  }
-  .cta-button {
-      background-color: black;
-      color: #fff;
-      padding: 10px 20px;
-      font-size: 16px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-  }
- .aboutredirect{
+}
+
+.cta-button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.aboutredirect {
     background-color: rgb(150, 150, 150);
     padding: 15px;
-        max-width: 20%;
-        margin: auto;
-        
-    }
-.aboutredirect:hover .aboutredirect1:hover{
+    max-width: 20%;
+    margin: auto;
+
+}
+
+.aboutredirect:hover {
     background-color: #f33f3f;
-  }
-  .aboutredirect1{
+}
+
+.aboutredirect1:hover {
+    background-color: #f33f3f;
+}
+
+.aboutredirect1 {
     background-color: rgb(150, 150, 150);
-    padding: 15px ;
-        margin-top: 25px;
-        max-width: 70%;
-       margin-left: 200px;
-  }
-  .aboutredirectLink{
+    padding: 15px;
+    margin-top: 25px;
+    max-width: 70%;
+    margin-left: 200px;
+}
+
+.aboutredirectLink {
     color: white !important;
-  }
-  @media (max-width: 1200px) {
-    .aboutredirect1{
+}
+
+@media (max-width: 1200px) {
+    .aboutredirect1 {
         max-width: 50%;
     }
 }
+
 @media (max-width: 990px) {
-    .aboutredirect1{
+    .aboutredirect1 {
         max-width: 40%;
+        margin-bottom: 40px;
+    }
+
+    .aboutredirect {
+        max-width: 40%;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .aboutredirecttitle {
+        margin-top: -100px;
+    }
+}
+
+.firstContainer {
+    margin-top: 120px;
+    margin-bottom: 90px;
+}
+
+.company_moto {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 90px;
+}
+
+.productlists {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.productlists li {
+    display: inline-block;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+.productlists li::before {
+    content: '\25EF';
+    /* Unicode character for a bullet point */
+    color: var(--your-bullet-color);
+    /* Customize the bullet color */
+    font-size: 12px;
+    /* Adjust the font size as needed */
+    position: absolute;
+    left: 15px;
+    /* Adjust the distance between the bullet and the text */
+}
+
+.companyprofile {
+    margin-top: 90px;
+    margin-left: -20px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.secondbutoon {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1199px) {
+    .companyprofile {
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .companyprofile {
+        margin-top: -20px;
+        margin-left: 35px
+    }
+
+    .firstContainer {
+        margin-top: 70px;
+    }
+
+    .buttons {
+        margin-bottom: 40px;
+    }
+
+    .imagesprofile {
+        margin-left: 60px
+    }
+
+    .company_moto {
+        margin-left: 140px;
     }
 }
