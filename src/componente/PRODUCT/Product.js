@@ -9,70 +9,61 @@ import { Link } from "react-router-dom";
 function Product() {
   return (
     <>
-      <section className="featured-product section-padding">
-        <div className="container">
-          <div className="row">
-            <div className="container my-5">
-              <div className="col-12 text-center">
-                <h2 className="mb-5">
-                  Get started with <span className="text-primary">Mele</span>{" "}
-                  Textile
-                </h2>
-              </div>
-
-              <div
-                className="tab-pane fade show active"
-                id="pills-home"
-                role="tabpanel"
-                aria-labelledby="pills-home-tab"
-              >
-                <div className="row align-items-center">
-                  <div className="col-lg-6 col-12 order-lg-1 order-2">
+      <section className="featured-product ">
+        <div className="container firstContainer">
+                <div className="row">
+                  <div className="col-lg-6 col-12 order-lg-1 order-2 imagesprofile">
                     <img
                       src={img9}
                       className="img-fluid rounded shadow"
                       alt="Fashion Image"
                     />
+                        
                   </div>
-
-                  <div className="col-lg-6 col-12 order-lg-2 order-1">
-                    <div className="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                      <h4 className="mb-3 aboutredirecttitle" >
-                        Good <span className="text-primary">Design</span> <br />
-                        Ideas for <span className="text-primary">
-                          your
-                        </span>{" "}
-                        fashion
-                      </h4>
-
-                      <p className="paragraph-style2 ">
-                        Mele Textile, owned and established as a business firm
-                        by visionary young & dynamic Ethiopian entrepreneurs
-                        family in the year of 2006. With a strong foundation
-                        rooted in family business experience and a commitment to
-                        navigate the dynamic Ethiopian business environment, the
-                        company strategically positioned itself in the textile
-                        industry.
+                  <div className="col-lg-6 col-12 order-lg-2 order-1 companyprofile">
+                    
+                         <div className="col-12 text-center">
+                <h2 className="company_name">
+                  Get started with <span className="text-primary">Mele</span>{" "}
+                  Textile
+                </h2>
+              </div>
+                      <p className="company_moto ">
+                      Crafting Threads of Style, Weaving Dreams of Fashion.
+                      
+                     
                       </p>
-
+                      <ul className="productlists">
+                        <li>Garment Product</li>
+                        <li>Woven and Knitted Fabric</li>
+                        <li>Dresses</li>
+                      </ul>
+                      <div className="buttons">
                       <div className="aboutredirect1">
                         <Link to="/About" className="aboutredirectLink">
-                          Learn more about us
+                         Contact Us
                           <i className="bi bi-arrow-right ms-2"></i>
                         </Link>
                       </div>
+                      <div className="secondbutoon">
+                        <Link to="/About" className="">
+                         Learn More
+                          <i className="bi bi-arrow-right ms-2"></i>
+                        </Link>
+                      </div>
+                    
                     </div>
                   </div>
                 </div>
-              </div>
             </div>
+
 
             <div className="col-12 text-center">
               <h2 className="mb-5">Our Products</h2>
             </div>
             <div className="container"> 
               <div className="row">
-            <div className="col-lg-4 col-12 col-s-4 mb-3">
+            <div className="col-lg-4 col-12 mb-3">
               <div className="product-thumb">
                 <img src={img4} className="img-fluid product-image1" alt="" />
 
@@ -95,7 +86,7 @@ function Product() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-12 col-s-4 mb-3">
+            <div className="col-lg-4 col-12 mb-3">
               <div className="product-thumb">
                 <a href="product-detail.html">
                   <img src={img5} className="img-fluid product-image1" alt="" />
@@ -118,7 +109,7 @@ function Product() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-12 col-s-4 mb-3">
+            <div className="col-lg-4 col-12 mb-3">
               <div className="product-thumb">
                 <a href="product-detail.html">
                   <img src={img6} className="img-fluid product-image" alt="" />
@@ -149,7 +140,6 @@ function Product() {
                 View All Products
               </Link>
             </div>
-          </div>
           <div className="col-12 text-center">
             <h2 className="mb-5 mt-5">Future Expansion</h2>
             <p className="col-12 paragraph-style">
@@ -160,13 +150,13 @@ function Product() {
               and creat dependable supply, the company strategically planned to
               establish spinning & cotton farming in near future.
             </p>
+          
             <div className="aboutredirect">
             <Link className="aboutredirectLink" to = '/About'>Learn More
             <i className="bi bi-arrow-right ms-2"></i>
             </Link>
           </div>
           </div>
-        </div>
       </section>
     </>
   );

@@ -1,3 +1,5 @@
+
+  
 /*---------------------------------------
   PRODUCT               
 -----------------------------------------*/
@@ -115,19 +117,22 @@
  .aboutredirect{
     background-color: rgb(150, 150, 150);
     padding: 15px;
-        width: 20%;
+        max-width: 20%;
         margin: auto;
         
     }
-.aboutredirect:hover .aboutredirect1:hover{
+.aboutredirect:hover{
+    background-color: #f33f3f;
+  }
+  .aboutredirect1:hover{
     background-color: #f33f3f;
   }
   .aboutredirect1{
     background-color: rgb(150, 150, 150);
-    padding: 15px;
-        max-width: 40%;
+    padding: 15px ;
         margin-top: 25px;
-       margin-left: 120px;
+        max-width: 70%;
+       margin-left: 200px;
   }
   .aboutredirectLink{
     color: white !important;
@@ -140,5 +145,79 @@
 @media (max-width: 990px) {
     .aboutredirect1{
         max-width: 40%;
+        margin-bottom: 40px;
     }
+    .aboutredirect{
+        max-width: 40%;
+        margin-bottom: 40px;
 }
+}
+
+@media (max-width: 991px) {
+.aboutredirecttitle{
+    margin-top: -100px;
+}
+}
+
+.firstContainer{
+    margin-top: 120px;
+    margin-bottom: 90px;
+}
+.company_moto{
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 90px;
+}
+.productlists {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.productlists li {
+  display: inline-block;
+  position: relative;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+.productlists li::before {
+    content: '\25EF'; /* Unicode character for a bullet point */
+    color: var(--your-bullet-color); /* Customize the bullet color */
+    font-size: 12px; /* Adjust the font size as needed */
+    position: absolute;
+    left: 15px; /* Adjust the distance between the bullet and the text */
+  }
+  .companyprofile{
+    margin-top: 90px;
+    margin-left: -20px;
+  }
+  .buttons{
+    display: flex;
+  }
+  .secondbutoon{
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  @media (max-width: 1199px) {
+    .companyprofile{
+        margin-top: -20px;
+    }
+    }
+    @media (max-width: 991px) {
+        .companyprofile{
+            margin-top: -20px;
+            margin-left: 35px
+        }
+        .firstContainer{
+            margin-top: 70px;
+        }
+        .buttons{
+           margin-bottom: 40px;
+          }
+          .imagesprofile{
+            margin-left: 60px
+          }
+          .company_moto{
+            margin-left:140px;
+          }
+        }
