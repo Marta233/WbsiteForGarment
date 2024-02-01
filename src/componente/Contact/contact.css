@@ -292,25 +292,6 @@ https://templatemo.com/tm-546-sixteen-clothing
       margin-right: 20px;
   }
 
-  .contact-info {
-      flex: 1;
-      max-width: 400px;
-      /* Adjust max-width based on your design */
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .fables-second-background-color,
   .fables-second-before::before,
   .fables-second-before::after,
@@ -373,49 +354,7 @@ https://templatemo.com/tm-546-sixteen-clothing
     margin-top: 96px;
   }
   
-  
-  
- 
-  
 
-
-
-
-  /* @Author: Enterprise Development
-   @URL: http://ed.com.eg/
-
-    This file contains the styling for the actual theme, this
-     is the file you need to edit to change the look of the
-     theme.
-
-     This files contents are outlined below.
-
-
-     1.  Default Styles
-     2.  Base Styles
-     3.  Preloader
-     4.  Testimonials
-     5.  headers
-     6.  footers
-     7.  pricing tables
-     8.  team members
-     9.  blog 
-     10. image hover effects
-     11. counters 
-     12. Navigation
-     13. Contact Pages
-     14. 404 Page
-     15. comming soon 
-     16. Social Share
-     17. Related Blogs0
-     18. Pagination
-     19. BreadCrumbs
-     20. Comments 
-     21. general styles
-     
-*/
-
-    
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -569,7 +508,91 @@ body{
     color: #fff;
 }
 /* end contact us pages  */
+.iconsaddress{
+   margin-bottom: 40px;
+}
+.iconsaddress{
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.iconsaddress{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.icons1 h5{
+    padding-left: 65px;
+    padding-bottom: 5px;
+}
+.icons1 p{
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.icons2 h5{
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.icons2 p{
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+.icons3 h5{
+    padding-left: 55px;
+    padding-bottom: 5px;
+}
+.icons3 p{
+    margin-left:-25px;
+    padding-bottom: 5px;
+}
+@media (max-width: 991px) {
+    .icons1 h5{
+        padding-left: 65px;
+        padding-bottom: 5px;
+        font-size: 25px;
+    }
+    .icons1 p{
+       
+        margin-left:10px;
+        padding-bottom: 5px;
+    }
+    .icons2 h5{
+        margin-left:4px;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+      .icons3 h5{
+        margin-left:3px;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+    .iconsaddress{
+        padding-left: 10px;
+    }
+}
 
-.contact_info{
-    margin: 90px 160px;
+@media (max-width: 767px) {
+    .icons1 h5{
+        padding-left: 50px;
+        padding-bottom: 5px;
+        font-size: 25px;
+    }
+    .icons1 p{
+       
+        margin-left:10px;
+        padding-bottom: 5px;
+    }
+    .icons2 h5{
+        margin-left:25px;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+      .icons3 h5{
+        margin-left:25px;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+    .iconsaddress{
+        padding-left: 10px;
+    }
+    .fontaws1 .fontaws2 .fontaws3{
+        margin-left: 50px;
+    }
 }

@@ -503,6 +503,7 @@ a.filled-button:hover {
     color: #555;
     text-align: justify;
     /* Justify the content */
+    font-family:'Courier New', Courier, monospace;
     /* Add any other styles you find attractive */
 }
 
@@ -594,13 +595,8 @@ a.filled-button:hover {
         .product-info {
            margin-left: 28%;
            margin-top: -30px;
-            margin-bottom: -30px;
+            margin-bottom: 10px;
         }
-}
-
-
-.firstContainer h2{
-    font-size: 30px;
 }
 .company_moto {
     margin-top: 20px;
@@ -649,10 +645,21 @@ a.filled-button:hover {
 .companyprofile{
     margin-top: 90px;
 }
+ .featured-product h4{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration-line: underline; /* Set the text-decoration to underline */
+  text-decoration-color:#f33f3f; /* Set the color of the underline */
+  color: #333; /* Set text color */
+  /* Add any additional styling properties you want */
+}
+
 @media (max-width: 991px) {
     .companyprofile {
         margin-top: 90px;
         margin-left: -30px
+    }
+    .futureexpan{
+      padding-bottom: 30px;
     }
     .firstContainer {
         margin-top: -10px;
@@ -670,7 +677,9 @@ a.filled-button:hover {
                 .product-image1 {
                     width: 90%;
                 }
+                
 }
+
 
 
 @media (max-width: 1150px) {

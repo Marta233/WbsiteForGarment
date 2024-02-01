@@ -64,50 +64,55 @@ function ContactUs() {
           </div>
         </div>
       </div>
-      <div className="container contact_info">
-        <div className="row">
-          <div className="col-12 col-lg-4 col-s-4 fadeInLeft">
-            <FontAwesomeIcon
+      <div className="container contact_info"
+      style={{
+                fontSize: "2rem",
+                color: "red",
+                
+             
+              }}
+      >
+        <div className="row iconsaddress">
+          <div className="col-12 col-lg-4 col-sm-4  icons1">
+            <FontAwesomeIcon 
               icon={faMapMarkerAlt}
               style={{
                 fontSize: "2rem",
                 color: "red",
-                marginLeft: "70px",
-                marginBottom: "10px",
+                marginLeft: '100px'
+             
               }}
+              className="fontaws1"
             />{" "}
             <h5>Address</h5>
             <p>Kolfe, Efoyta Market place, 4th Flore</p>
           </div>
-          <div className="col-12 col-lg-4 col-s-4">
+          <div className="col-12 col-lg-4  col-sm-4 icons2">
             <FontAwesomeIcon
               icon={faEnvelope}
               style={{
                 fontSize: "2rem",
                 color: "red",
-                marginLeft: "70px",
-                marginBottom: "10px",
+                marginLeft: '100px'
               }}
+              className="fontaws2"
             />{" "}
             <h5>Email and Phone</h5>
             <p>example@gmail.com</p>
             <p>0923234545</p>
           </div>
-          <div className="col-12 col-lg-4 col-s-4">
+          <div className="col-12 col-lg-4 col-sm-4 icons3">
             <FontAwesomeIcon
               icon={faHandshake}
               style={{
                 fontSize: "2rem",
                 color: "red",
-                marginLeft: "70px",
-                marginBottom: "10px",
+                marginLeft: '110px'
               }}
+              className="fontaws3"
             />
             <h5>Stay In Touch</h5>
-            <p
-              style={{
-                marginLeft: "30px",
-              }}
+            <p 
             >
               {" "}
               <a
@@ -120,7 +125,7 @@ function ContactUs() {
                   style={{
                     fontSize: "1.5rem",
                     color: "#3b5998",
-                    marginRight: "10px",
+                    marginLeft: '100px'
                   }}
                 />
               </a>
@@ -130,7 +135,8 @@ function ContactUs() {
                   style={{
                     fontSize: "1.5rem",
                     color: "#0088cc",
-                    marginRight: "10px",
+                    paddingLeft: "30px"
+                  
                   }}
                 />
               </a>
@@ -141,7 +147,7 @@ function ContactUs() {
               >
                 <FontAwesomeIcon
                   icon={faInstagram}
-                  style={{ fontSize: "1.5rem", color: "#e4405f" }}
+                  style={{ fontSize: "1.5rem", color: "#e4405f", paddingLeft: "30px" }}
                 />
               </a>
             </p>
@@ -150,7 +156,7 @@ function ContactUs() {
       </div>
       <div className="container contact_us">
         <div className="row">
-          <div className="col-12 col-sm-6  col-lg-6  wow fadeInLeft">
+          <div className="col-12  col-lg-6  wow fadeInLeft">
             <h1></h1>
             <form className="fables-contact-form">
               <div className="form-group">
@@ -189,7 +195,7 @@ function ContactUs() {
               </button>
             </form>
           </div>
-          <div className="col-12 col-sm-6 col-lg-6 d-flex align-items-center justify-content-center">
+          <div className="col-12 col-lg-6 d-flex ">
             <div style={{ flex: "1", minHeight: "400px" }}>
               <GoogleMap
                 mapContainerStyle={mapContainerStyle}

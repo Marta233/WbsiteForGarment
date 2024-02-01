@@ -30,10 +30,10 @@ function Product() {
 
                   <div className="col-lg-6 col-12 order-lg-2 order-1 companyprofile">
                     <div className="col-12 text-center">
-                      <h2 className="company_name">
+                      <h4 className="company_name">
                         Get started with{" "}
                         <span className="text-primary">Mele</span> Textile
-                      </h2>
+                      </h4>
                     </div>
                     <p className="company_moto ">
                       Crafting Threads of Style, Weaving Dreams of Fashion.
@@ -145,7 +145,7 @@ function Product() {
           </Link>
         </div>
         <div className="col-12 text-center">
-          <h4 className="mb-4 mt-4">Future Expansion</h4>
+          <h4 className="mb-4 mt-4 futureexpan">Future Expansion</h4>
           <p className="col-12 paragraph-style">
             ASBM Industrials has legally registered and established as a
             business firm in the yer of 2000 E.C under Ethiopin commercial code,
