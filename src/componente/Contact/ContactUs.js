@@ -82,7 +82,7 @@ function ContactUs() {
                 marginLeft: '100px'
              
               }}
-              className="fontaws1"
+           
             />{" "}
             <h5>Address</h5>
             <p>Kolfe, Efoyta Market place, 4th Flore</p>
@@ -95,7 +95,7 @@ function ContactUs() {
                 color: "red",
                 marginLeft: '100px'
               }}
-              className="fontaws2"
+             
             />{" "}
             <h5>Email and Phone</h5>
             <p>example@gmail.com</p>
@@ -109,7 +109,7 @@ function ContactUs() {
                 color: "red",
                 marginLeft: '110px'
               }}
-              className="fontaws3"
+              className="handshack"
             />
             <h5>Stay In Touch</h5>
             <p 
@@ -127,6 +127,7 @@ function ContactUs() {
                     color: "#3b5998",
                     marginLeft: '100px'
                   }}
+                  className="fontaws2"
                 />
               </a>
               <a href="https://t.me" target="_blank" rel="noopener noreferrer">
@@ -138,6 +139,7 @@ function ContactUs() {
                     paddingLeft: "30px"
                   
                   }}
+                  className="fontaws1"
                 />
               </a>
               <a
