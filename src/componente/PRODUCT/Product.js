@@ -3,7 +3,7 @@ import "./product.css";
 import img4 from "../../assets/Image/product/img1 (2).png";
 import img5 from "../../assets/Image/product/img2 (2).png";
 import img6 from "../../assets/Image/product/img3 (2).png";
-import img9 from "../../assets/Image/slideshow/istockphoto-1279917988-612x612.jpg";
+import img9 from "../../assets/images/unsplash/kir1.avif";
 import { Link } from "react-router-dom";
 
 function Product() {
@@ -64,8 +64,8 @@ function Product() {
           </div>
         </div>
 
-        <div className="col-12 text-center">
-          <h4 className="mb-3">Our Products</h4>
+        <div className="col-12 text-center Ourpro">
+          <h4 className="mb-3 ">Our Products</h4>
         </div>
         <div className="container">
           <div className="row">
@@ -144,7 +144,7 @@ function Product() {
             View All Products
           </Link>
         </div>
-        <div className="col-12 text-center">
+        <div className="col-12 text-center futureexpan">
           <h4 className="mb-4 mt-4 futureexpan">Future Expansion</h4>
           <p className="col-12 paragraph-style">
             ASBM Industrials has legally registered and established as a

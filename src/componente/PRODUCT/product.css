@@ -645,12 +645,29 @@ a.filled-button:hover {
 .companyprofile{
     margin-top: 90px;
 }
- .featured-product h4{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-decoration-line: underline; /* Set the text-decoration to underline */
-  text-decoration-color:#f33f3f; /* Set the color of the underline */
-  color: #333; /* Set text color */
-  /* Add any additional styling properties you want */
+
+.featured-product h4 {
+    text-decoration: none; /* Remove the default underline style */
+    position: relative; /* Needed for absolute positioning of the pseudo-element */
+}
+
+.futureexpan h4::after {
+    content: ""; /* Create a pseudo-element to act as the underline */
+    position: absolute;
+    left: 0;
+    bottom: -10px; /* Adjust the distance between text and underline here */
+    width: 20%; /* Make the underline span the full width of the element */
+    border-bottom: 3px solid rgb(211, 22, 22); /* Adjust the underline width and color here */
+left: 265px;
+}
+.Ourpro h4::after {
+    content: ""; /* Create a pseudo-element to act as the underline */
+    position: absolute;
+    left: 0;
+    bottom: -10px; /* Adjust the distance between text and underline here */
+    width: 20%; /* Make the underline span the full width of the element */
+    border-bottom: 3px solid rgb(211, 22, 22); /* Adjust the underline width and color here */
+left: 265px;
 }
 
 @media (max-width: 991px) {

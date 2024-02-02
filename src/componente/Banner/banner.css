@@ -11,13 +11,13 @@
     background-position: center center;
 }
 .banner-item-01 {
-    background-image: url('../../assets/images/slider_img1.jpg');   
+    background-image: url('../../assets/images/unsplash/ban4.avif');   
 }
 .banner-item-02 {
-    background-image: url('../../assets/Image/slideshow/slid-img2.jpg');
+    background-image: url('../../assets/images/unsplash//ban.avif');
 }
 .banner-item-03 {
-    background-image: url('../../assets/Image/slideshow/slid-img3.jpg'); 
+    background-image: url('../../assets/images/slider_img1.jpg'); 
 }
 .banner-item-03 img {
     max-height: 20px;

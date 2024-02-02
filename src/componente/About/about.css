@@ -59,19 +59,21 @@ body {
     font-family: lato;
     font-size: 14px;
     line-height: 2.5em;
-    color: #9b9894;
+    color: #272624;
+    font-family:'Courier New', Courier, monospace;
+
 }
 .ParagraphMain{
     display: flex;
     margin-top: 40px;
 }
 .ParagraphMain .paragraphbottom1{
-    width: 120%;
-    margin-left: 20px;
+    width: 85%;
+    margin-left: 60px;
 }
 .ParagraphMain .paragraphbottom2 {
-    margin-left: 160px;
-    width: 85%;
+    margin-left: -50px;
+    width: 100%;
 }
 .see-more-container{
     display: none;
