@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./about.css";
 import img1 from "../../assets/abut.png";
 import img2 from "../../assets/icone.png";
+import img3 from "../../assets/images/unsplash/misson.avif";
 function About() {
   const [showParagraph, setShowParagraph] = useState(false);
   const [buttonVisible, setButtonVisible] = useState(true);
@@ -87,7 +88,7 @@ function About() {
 
         <div className="aboutVision1">
           <div className="col-lg-6 col-12">
-            <img src={img1} className="aboutImg1" />
+            <img src={img3} className="aboutImg1" />
           </div>
           <div className=" Vision">
             <h2>Our Mission</h2>

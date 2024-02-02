@@ -496,7 +496,7 @@ a.filled-button:hover {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 40px;
-    margin-top: -25px;
+    margin-top: 25px;
     margin-left: 110px;
     max-width: 80%;
     text-align: center;
@@ -653,27 +653,48 @@ a.filled-button:hover {
 
 .futureexpan h4::after {
     content: ""; /* Create a pseudo-element to act as the underline */
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: -10px; /* Adjust the distance between text and underline here */
-    width: 20%; /* Make the underline span the full width of the element */
+    width: 15%; /* Make the underline span the full width of the element */
     border-bottom: 3px solid rgb(211, 22, 22); /* Adjust the underline width and color here */
-left: 265px;
+left: 800px;
 }
 .Ourpro h4::after {
     content: ""; /* Create a pseudo-element to act as the underline */
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: -10px; /* Adjust the distance between text and underline here */
-    width: 20%; /* Make the underline span the full width of the element */
+    width: 10%; /* Make the underline span the full width of the element */
     border-bottom: 3px solid rgb(211, 22, 22); /* Adjust the underline width and color here */
-left: 265px;
+left: 850px;
+}
+.prolist{
+    margin-top: 60px;
 }
 
 @media (max-width: 991px) {
     .companyprofile {
         margin-top: 90px;
         margin-left: -30px
+    }
+    .futureexpan h4::after {
+        content: ""; /* Create a pseudo-element to act as the underline */
+        position: absolute;
+        left: 0;
+        bottom: -10px; /* Adjust the distance between text and underline here */
+        width: 20%; /* Make the underline span the full width of the element */
+        border-bottom: 3px solid rgb(211, 22, 22); /* Adjust the underline width and color here */
+    left: 265px;
+    }
+    .Ourpro h4::after {
+        content: ""; /* Create a pseudo-element to act as the underline */
+        position: absolute;
+        left: 0;
+        bottom: -10px; /* Adjust the distance between text and underline here */
+        width: 20%; /* Make the underline span the full width of the element */
+        border-bottom: 3px solid rgb(211, 22, 22); /* Adjust the underline width and color here */
+    left: 265px;
     }
     .futureexpan{
       padding-bottom: 30px;

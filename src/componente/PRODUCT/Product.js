@@ -67,7 +67,7 @@ function Product() {
         <div className="col-12 text-center Ourpro">
           <h4 className="mb-3 ">Our Products</h4>
         </div>
-        <div className="container">
+        <div className="container prolist">
           <div className="row">
             <div className="col-lg-4 col-12">
               <div className="product-thumb">

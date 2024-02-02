@@ -21,7 +21,7 @@ function ProductDetails() {
                 <div className="container">
                     <div className="row">      
                         <div className="col-12">
-                            <h2 className="mb-5">New Arrivals</h2>
+                            <h2 className="mb-5">Products We Have</h2>
                         </div>
                         <div className="col-lg-4 col-12 mb-3">
                             <div className="product-thumb">
@@ -29,7 +29,7 @@ function ProductDetails() {
                                     <img src={img1} className="img-fluid product-image" alt="" />
                                 </Link>
                                 <div className="product-top d-flex">
-                                    <span className="product-alert me-auto">New Arrival</span>
+                                    <span className="product-alert me-auto">Products We Have</span>
 
                                     <a href="#" className="bi-heart-fill product-icon"></a>
                                 </div>
@@ -37,13 +37,13 @@ function ProductDetails() {
                                 <div className="product-info d-flex">
                                     <div>
                                         <h5 className="product-title mb-0">
-                                            <a href="product-detail.html" className="product-title-link">Tree pot</a>
+                                            <a href="product-detail.html" className="product-title-link">Product Name</a>
                                         </h5>
 
-                                        <p className="product-p">Original package design from house</p>
+                                        <p className="product-p">Describtion</p>
                                     </div>
 
-                                    <small className="product-price text-muted ms-auto">$25</small>
+                                    <small className="product-price text-muted ms-auto">Price</small>
                                 </div>
                             </div>
                         </div>
@@ -63,13 +63,13 @@ function ProductDetails() {
                                 <div className="product-info d-flex">
                                     <div>
                                         <h5 className="product-title mb-0">
-                                            <a href="product-detail.html" className="product-title-link">Fashion set</a>
+                                            <a href="product-detail.html" className="product-title-link">Product Name</a>
                                         </h5>
 
-                                        <p className="product-p">Costume package</p>
+                                        <p className="product-p">Describtion</p>
                                     </div>
 
-                                    <small className="product-price text-muted ms-auto">$35</small>
+                                    <small className="product-price text-muted ms-auto">Price</small>
                                 </div>
                             </div>
                         </div>
@@ -87,19 +87,15 @@ function ProductDetails() {
                                 <div className="product-info d-flex">
                                     <div>
                                         <h5 className="product-title mb-0">
-                                            <a href="product-detail.html" className="product-title-link">Juice Drinks</a>
+                                            <a href="product-detail.html" className="product-title-link">Product Name</a>
                                         </h5>
 
-                                        <p className="product-p">Nature made another world</p>
+                                        <p className="product-p">Describtion</p>
                                     </div>
 
-                                    <small className="product-price text-muted ms-auto">$45</small>
+                                    <small className="product-price text-muted ms-auto">Price</small>
                                 </div>
                             </div>
-                        </div>
-
-                        <div className="col-12">
-                            <h2 className="mb-5">Popular</h2>
                         </div>
 
                         <div className="col-lg-4 col-12 mb-3">
@@ -117,13 +113,13 @@ function ProductDetails() {
                                 <div className="product-info d-flex">
                                     <div>
                                         <h5 className="product-title mb-0">
-                                            <a href="product-detail.html" className="product-title-link">Package</a>
+                                            <a href="product-detail.html" className="product-title-link">Product Name</a>
                                         </h5>
 
-                                        <p className="product-p">Original package design from house</p>
+                                        <p className="product-p">Describtion</p>
                                     </div>
 
-                                    <small className="product-price text-muted ms-auto">$50</small>
+                                    <small className="product-price text-muted ms-auto">Price</small>
                                 </div>
                             </div>
                         </div>
@@ -141,13 +137,13 @@ function ProductDetails() {
                                 <div className="product-info d-flex">
                                     <div>
                                         <h5 className="product-title mb-0">
-                                            <a href="product-detail.html" className="product-title-link">Bottle</a>
+                                            <a href="product-detail.html" className="product-title-link">Product Name</a>
                                         </h5>
 
-                                        <p className="product-p">Package design</p>
+                                        <p className="product-p">Describtion</p>
                                     </div>
 
-                                    <small className="product-price text-muted ms-auto">$100</small>
+                                    <small className="product-price text-muted ms-auto">Price</small>
                                 </div>
                             </div>
                         </div>
@@ -165,13 +161,13 @@ function ProductDetails() {
                                 <div className="product-info d-flex">
                                     <div>
                                         <h5 className="product-title mb-0">
-                                            <a href="product-detail.html" className="product-title-link">Medicine</a>
+                                            <a href="product-detail.html" className="product-title-link">Product Name</a>
                                         </h5>
 
-                                        <p className="product-p">Original design from house</p>
+                                        <p className="product-p">Describtion</p>
                                     </div>
 
-                                    <small className="product-price text-muted ms-auto">$200</small>
+                                    <small className="product-price text-muted ms-auto">Price</small>
                                 </div>
                             </div>
                         </div>
