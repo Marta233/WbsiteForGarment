@@ -32,7 +32,9 @@ https://www.tooplate.com/view/2127-little-fashion
     --font-weight-bold: 700;
     --font-weight-black: 900;
 }
-
+img {
+    width: 100%;
+  }
 body,
 html {
     height: 100%;
@@ -630,9 +632,7 @@ a.filled-button:hover {
     top: 3px;
     /* Adjust the distance between the bullet and the text */
 }
-.companyprofile {
-    margin-left:-20px;
-}
+
 .buttons {
     display: flex;
     margin-left: -35px;
@@ -645,7 +645,9 @@ a.filled-button:hover {
 .companyprofile{
     margin-top: 90px;
 }
-
+.imagesprofile img{
+    width: 100%;
+}
 .featured-product h4 {
     text-decoration: none; /* Remove the default underline style */
     position: relative; /* Needed for absolute positioning of the pseudo-element */
@@ -671,8 +673,11 @@ left: 850px;
 }
 .prolist{
     margin-top: 60px;
+   
 }
-
+.firstContainer{
+    width: 70%;
+}
 @media (max-width: 991px) {
     .companyprofile {
         margin-top: 90px;
