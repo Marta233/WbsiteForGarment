@@ -494,157 +494,121 @@ a.filled-button:hover {
     padding-bottom: 6px;
 }
 
-.paragraph-style {
-    font-size: 16px;
-    line-height: 1.6;
+
+
+
+
+
+
+
+
+
+
+
+
+.firstContainer{
+    width: 80%;
+    margin-top: 60px;
     margin-bottom: 40px;
-    margin-top: 25px;
-    margin-left: 110px;
-    max-width: 80%;
-    text-align: center;
-    color: #555;
-    text-align: justify;
-    /* Justify the content */
-    font-family:'Courier New', Courier, monospace;
-    /* Add any other styles you find attractive */
+   
 }
 
-.paragraph-style2 {
+.bordr{
+border-top: 6px solid #FF4400;
+    border-width: 100%;
+}
+.firstContainer h6{
     font-size: 15px;
-    line-height: 1.6;
-    margin-top: 5px;
-    width: 100%;
+    font-weight: 400;
+    color:#b1a8a8 !important
+}
+.firstContainer h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    color: #333333 !important
+}
+.double-line-bottom-theme-colored-2 {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.double-line-bottom-theme-colored-2::before{
+    border-radius: 8px;
+    bottom: -1px;
+    content: "";
+    height: 6px;
+    left: 10px;
+    position:absolute;
+    width: 24px;
+}
+.double-line-bottom-theme-colored-2::after {
+    border-radius: 8px;
+    bottom: -1px;
+    content: "";
+    height: 6px;
+    left: 10px;
+    position: absolute;
+    width: 24px;
+}
+.paragraph-style {
+    font-size: 14px;
+    line-height: 1.7;
+    max-width: 100%;
     text-align: center;
     color: #555;
     text-align: justify;
     /* Justify the content */
+    font-family:'Roboto',
+        sans-serif;
     /* Add any other styles you find attractive */
 }
 
-@media (max-width: 600px) {
-    .paragraph-style {
-       margin: auto;
-       padding-bottom: 20px;
-    }
-}
 
-
-.fle {
+.buttons {
     display: flex;
 }
-
-.cta-button {
-    background-color: black;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.company_name{
+    margin-bottom: 10px;
 }
-
-.aboutredirect {
-    background-color: rgb(150, 150, 150);
-    padding: 15px;
-    max-width: 20%;
-    margin: auto;
-
+.futureexpan{
+    max-width: 80%;
 }
-
-.aboutredirect:hover {
-    background-color: #f33f3f;
+.futureexpan h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: #333333 !important
 }
-
 .aboutredirect1:hover {
     background-color: #f33f3f;
 }
-
 .aboutredirect1 {
     background-color: rgb(150, 150, 150);
     padding: 15px;
     margin-top: 25px;
     max-width: 70%;
-    margin-left: 200px;
 }
 
 .aboutredirectLink {
     color: white !important;
 }
-
-@media (max-width: 1200px) {
-    .aboutredirect1 {
-        max-width: 50%;
-    }
+.futureexpan  .aboutredirect1{
+   max-width: 20%;
+   margin: auto;
 }
-
-@media (max-width: 990px) {
-    .aboutredirect1 {
-        max-width: 40%;
-        margin-bottom: 40px;
-    }
-
-    .aboutredirect {
-        max-width: 40%;
-        margin-bottom: 40px;
-    }
-}
-
-@media (max-width: 991px) {
-    .aboutredirecttitle {
-        margin-top: -100px;
-    }
-        .product-info {
-           margin-left: 28%;
-           margin-top: -30px;
-            margin-bottom: 10px;
-        }
-}
-.company_moto {
-    margin-top: 20px;
-    font-size: 16px;
-    margin-left: 90px;
-}
-
-.productlists {
-    margin-top: 25px;
-    margin-bottom: 10px;
-    margin-left: 110px;
-}
-
-.productlists li {
-    display: inline-block;
-    position: relative;
-    padding-left: 25px;
-    padding-right: 15px;
-  
-}
-
-.productlists li::before {
-    content: '\25EF';
-    /* Unicode character for a bullet point */
-    color: var(--your-bullet-color);
-    /* Customize the bullet color */
-    font-size: 12px;
-    /* Adjust the font size as needed */
-    position: absolute;
-    left: 5px;
-    top: 3px;
-    /* Adjust the distance between the bullet and the text */
-}
-
-.buttons {
-    display: flex;
-    margin-left: -35px;
-
-}
-.secondbutoon {
+.secondbutoon{
     margin-top: 40px;
     margin-left: 10px;
 }
-.companyprofile{
-    margin-top: 90px;
+
+.bord{
+    border-top: 5px solid red;
+    border-width: 100%;
+   top: -5px;
 }
+
+
+
 .imagesprofile img{
     width: 100%;
 }
@@ -653,106 +617,55 @@ a.filled-button:hover {
     position: relative; /* Needed for absolute positioning of the pseudo-element */
 }
 
-.futureexpan h4::after {
-    content: ""; /* Create a pseudo-element to act as the underline */
-    position: relative;
-    left: 0;
-    bottom: -10px; /* Adjust the distance between text and underline here */
-    width: 15%; /* Make the underline span the full width of the element */
-    border-bottom: 3px solid rgb(211, 22, 22); /* Adjust the underline width and color here */
-left: 800px;
-}
-.Ourpro h4::after {
-    content: ""; /* Create a pseudo-element to act as the underline */
-    position: relative;
-    left: 0;
-    bottom: -10px; /* Adjust the distance between text and underline here */
-    width: 10%; /* Make the underline span the full width of the element */
-    border-bottom: 3px solid rgb(211, 22, 22); /* Adjust the underline width and color here */
-left: 850px;
-}
+
+
 .prolist{
-    margin-top: 60px;
+    margin-top: 30px;
+    max-width: 80%;
    
 }
-.firstContainer{
-    width: 70%;
-}
-@media (max-width: 991px) {
-    .companyprofile {
-        margin-top: 90px;
-        margin-left: -30px
-    }
-    .futureexpan h4::after {
-        content: ""; /* Create a pseudo-element to act as the underline */
-        position: absolute;
-        left: 0;
-        bottom: -10px; /* Adjust the distance between text and underline here */
-        width: 20%; /* Make the underline span the full width of the element */
-        border-bottom: 3px solid rgb(211, 22, 22); /* Adjust the underline width and color here */
-    left: 265px;
-    }
-    .Ourpro h4::after {
-        content: ""; /* Create a pseudo-element to act as the underline */
-        position: absolute;
-        left: 0;
-        bottom: -10px; /* Adjust the distance between text and underline here */
-        width: 20%; /* Make the underline span the full width of the element */
-        border-bottom: 3px solid rgb(211, 22, 22); /* Adjust the underline width and color here */
-    left: 265px;
-    }
-    .futureexpan{
-      padding-bottom: 30px;
-    }
-    .firstContainer {
-        margin-top: -10px;
-    }
-    .buttons {
-        margin-bottom: 40px;
-        padding-left: 120px;
-    }
-    .company_moto {
-        padding-left: 110px;
-    }
-        .productlists {   
-            padding-left: 110px;
-        }
-                .product-image1 {
-                    width: 90%;
-                }
-                
-}
 
-
-
-@media (max-width: 1150px) {
-    .companyprofile {
-        margin-top: 10px;
-    }
-    .buttons {
-        margin-bottom: 40px;
-        margin-left: -80px;
-    }
-.firstContainer h2{
-    font-size: 35px;
-}
-    .company_moto {
-        margin-left: 50px;
-    }
-   .productlists li{
+.Ourpro h6{
     font-size: 14px;
-    padding-left: 30px;
-   }
-   .productlists{
-    margin-left: 70px;
-   }
-   .product-image1 {
-       width: 90%;
-   }
+    font-weight: 200;
 }
-@media (max-width: 766px) {
-.product-image1 {
+.Ourpro{
+    margin-bottom: 30px;
+}
+
+@media (max-width: 997px) {
+
+
+.firstContainer  {
+        max-width: 100%;
+        height: auto;
+    }
+.firstContainer {
+   width: 100%;
+}
+    .prolist  {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .prolist {
         width: 100%;
     }
 }
+@media (max-width: 760px) {
 
+    .imagesprofile {
+        margin-top: 30px;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .firstContainer {
+        width: 80%;
+    }
+.prolist{
+    width: 80%;
+}
+}

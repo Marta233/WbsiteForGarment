@@ -34,8 +34,8 @@ function Banner() {
       <Slider {...sliderSettings}>
         <div className="banner-item banner-item-01">
           <div className="text-content">
-            <h4>Best Offer</h4>
-            <h2>New Arrivals On Sale</h2>
+            <h4>Style Unlocked</h4>
+            <h2>Discover Style, Unleash Confidence</h2>
           </div>
         </div>
         <div className="banner-item banner-item-02">
@@ -46,8 +46,8 @@ function Banner() {
         </div>
         <div className="banner-item banner-item-03">
           <div className="text-content">
-            <h4>Last Minute</h4>
-            <h2>Grab last-minute deals</h2>
+            <h4>Fashion Forward</h4>
+            <h2>Step Into Style with Our Latest Collection</h2>
           </div>
         </div>
       </Slider>

@@ -54,26 +54,30 @@ body {
     width: 85%;
     margin: auto;
  }
-.mainpara p{
-    text-align: justify;
-    font-family: lato;
-    font-size: 14px;
-    line-height: 2.5em;
-    color: #272624;
-    font-family:'Courier New', Courier, monospace;
+.mainpara p {
+        font-size: 14px;
+        line-height: 2.5em;
+        max-width: 100%;
+        text-align: center;
+        color: #303030;
+        text-align: justify;
+        /* Justify the content */
+        font-family: 'Roboto',
+            sans-serif;
+        /* Add any other styles you find attractive */
 
 }
 .ParagraphMain{
     display: flex;
-    margin-top: 40px;
+    margin-top: 20px;
 }
-.ParagraphMain .paragraphbottom1{
-    width: 85%;
-    margin-left: 60px;
+ .paragraphbottom1{
+    max-width: 100%;
+    margin-left: 20px;
 }
 .ParagraphMain .paragraphbottom2 {
-    margin-left: -50px;
-    width: 100%;
+    margin-left: 70px;
+    width: 90%;
 }
 .see-more-container{
     display: none;
@@ -83,10 +87,31 @@ body {
       display: flex;
       margin-left: 300px;
       position: relative;
-      margin-top: 70px;
+      margin-top: 50px;
   }
-
-  .aboutVision1::after {
+.aboutVision1 p{
+    font-size: 14px;
+        line-height: 2.5em;
+        text-align: center;
+        color: #303030;
+        text-align: justify;
+        /* Justify the content */
+        font-family: 'Roboto',
+            sans-serif;
+        /* Add any other styles you find attractive */
+}
+.aboutVision2 p {
+    font-size: 14px;
+    line-height: 2.5em;
+    text-align: center;
+    color: #303030;
+    text-align: justify;
+    /* Justify the content */
+    font-family: 'Roboto',
+        sans-serif;
+    /* Add any other styles you find attractive */
+}
+.aboutVision1::after {
       content: "";
       position: absolute;
       bottom: 0;
@@ -101,7 +126,7 @@ body {
   }
  .aboutImg1,
  .aboutImg2 {
-     max-width: 60%;
+     max-width: 90%;
      /* Ensure images don't exceed their parent container */
      height: auto;
      /* Maintain aspect ratio */
@@ -109,6 +134,11 @@ body {
      /* Remove any extra spacing below images */
      margin: 0 auto;
      /* Center images within their parent container */
+            border-radius: 30px;
+            /* Adjust the border-radius value as needed */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Add a subtle box shadow */
+        
  }
    .aboutVision2 {
        width: 70%;
@@ -122,11 +152,13 @@ body {
  
   .AboutMainContaint {
       position: relative;
-      padding-top: 90px;
+      padding-top: 30px;
       padding-bottom: 60px;
       /* Adjust padding as needed */
   }
-
+.AboutMainContaint h2{
+    margin-bottom: 30px;
+}
   .AboutMainContaint::before {
       content: "";
       position: absolute;
@@ -138,15 +170,7 @@ body {
       border-bottom: 4px solid #f33f3f;
   }
   .Vision{
-    margin-top: 150px;
-  }
-  .Vision p {
-      font-family: Lato;
-      max-width: 100%;
-      padding: 0 20px;
-      text-align: justify;
-      color: #6c757d !important;
-      line-height: 1.5;
+    margin-top: 100px;
   }
 
    h2 {
@@ -189,15 +213,14 @@ body {
   
  @media (max-width: 992px){
     .ParagraphMain .paragraphbottom1 {
-            width: 120%;
-            margin-left: 0px;
+            width: 100%;
         }
         .ParagraphMain .paragraphbottom2 {
-            margin-left: 90px;
+            margin-left: 60px;
             width: 85%;
         }
                  .aboutVision1 {
-                     width: 70%;
+                     width: 60%;
                      display: block;
                      margin-left: 300px;
                      position: relative;

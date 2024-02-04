@@ -32,17 +32,13 @@ function About() {
           <div className="mainpara">
             <div className="col-lg-6 col-12 mb-3">
               <p>
-                Mele Textile PLC, founded in 2022 by a visionary and
-                dynamic Ethiopian entrepreneurial family, stands at the forefront
-                of innovation and excellence in the textile industry.
-                From its modest origins with just 2 sewing machines and
-                3 employees, the company has flourished into a powerhouse
-                with 20 cutting-edge sewing machines and a skilled
-                workforce of 23. From its inception,
-                the company has strategically positioned itself within the textile sector,
-                showcasing a keen understanding of market dynamics and consumer preferences.
-                With a commitment to quality and innovation,
-
+                Mele Textile PLC, founded in 2022 by a visionary and dynamic
+                Ethiopian entrepreneurial family, stands at the forefront of
+                innovation and excellence in the textile industry. From its
+                modest origins with just 2 sewing machines and 3 employees, the
+                company has flourished into a powerhouse with 20 cutting-edge
+                sewing machines and a skilled workforce of 23. From its
+                inception,
               </p>
             </div>
             <div className="see-more-container">
@@ -64,22 +60,18 @@ function About() {
             >
               <div>
                 <p className="paragraphbottom1">
-
-                  Distinguished for producing top-notch T-shirts, dresses, and
-                  a variety of other textile products, Mele Textile PLC sets itself
-                  apart through a commitment to excellence. Beyond simply adopting the
-                  latest technologies in textile manufacturing, the
-                  company has cultivated a collaborative and forward-thinking work culture.
+                  With a commitment to quality and innovation, Distinguished for
+                  producing top-notch T-shirts, dresses, and a variety of other
+                  textile products.
                 </p>
               </div>
 
               <div>
                 <p className="paragraphbottom2">
-                  Mele Textile PLC's growth is a testament to its commitment
-                  to quality and excellence, and as it continues to expand,
-                  it remains dedicated to making a lasting impact on the
-                  textile sector while contributing to the economic growth
-                  of Ethiopia.
+                  Mele Textile PLC's growth is a testament to its commitment to
+                  quality and excellence, and as it continues to expand, it
+                  remains dedicated to making a lasting impact on the textile
+                  sector while contributing to the economic growth of Ethiopia.
                 </p>
               </div>
             </div>
@@ -93,9 +85,9 @@ function About() {
           <div className=" Vision">
             <h2>Our Mission</h2>
             <p>
-            To drive financial growth, enhance production through machinery expansion, and actively contribute 
-            to our community by creating employment opportunities for the unemployed.
-              
+              To drive financial growth, enhance production through machinery
+              expansion, and actively contribute to our community by creating
+              employment opportunities for the unemployed.
             </p>
           </div>
         </div>
@@ -103,8 +95,9 @@ function About() {
           <div className="Vision">
             <h2>Our Vission</h2>
             <p>
-            To assert a global presence by excelling in both quality and quantity, 
-              setting benchmarks that transcend international standards.
+              To assert a global presence by excelling in both quality and
+              quantity, setting benchmarks that transcend international
+              standards.
             </p>
           </div>
           <div className="col-lg-6 col-12">
@@ -117,19 +110,19 @@ function About() {
           <div className="Leaders">
             <div>
               <img src={img2} />
-              <h4>Ato Melaku Welde</h4>
-              <div className="aboutleader">Chief Executive Officer</div>
+              <h4>Melaku Welde</h4>
+              <div className="aboutleader">Manager</div>
               <span>+251954445344</span>
             </div>
             <div>
               <img src={img2} />
-              <h4>Ato Melaku Welde</h4>
-              <div className="aboutleader">CO-FOUNDER</div>
+              <h4>Misganaw menjeta </h4>
+              <div className="aboutleader"> deputy manager</div>
               <span>+2519434343</span>
             </div>
             <div>
               <img src={img2} />
-              <h4>Ato Melaku Welde</h4>
+              <h4>H/meskel wolde</h4>
               <div className="aboutleader">CO-FOUNDER</div>
               <span>+251945454535</span>
             </div>
