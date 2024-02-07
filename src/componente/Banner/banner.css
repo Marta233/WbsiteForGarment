@@ -26,14 +26,12 @@ body {
     background-image: url('../../assets/images/unsplash//ban.avif');   
 }
 .banner-item-02 {
-    background-image: url('../../assets/images/CHEC/B2.avif');
+    background-image: url('../../assets/images/unsplash//ban.avif');
 }
 .banner-item-03 {
     background-image: url('../../assets/images/slider_img1.jpg'); 
 }
-.banner-item-02{
-    height: 100%;
-}
+
 img{
     width: 100%;
 }
