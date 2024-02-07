@@ -137,7 +137,11 @@ body {
    }
 
    .contact-heading {
-       background-image: url(../../assets/images/CHEC/CONL.avif)
+       background-image: url(../../assets/images/CHEC/CONL.avif);
+       max-width: 100%;
+   }
+   .contact_info{
+    max-width: 100%;
    }
 
    .page-heading {
@@ -352,6 +356,9 @@ https://templatemo.com/tm-546-sixteen-clothing
  
   .contact_us .formss{
     margin-top: 96px;
+  }
+  .contact_us{
+    max-width: 100%;
   }
   
 

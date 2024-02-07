@@ -653,7 +653,7 @@ section {
   SITE FOOTER               
 -----------------------------------------*/
 .footer{
-    width: 100%;
+    max-width: 100%;
 }
 .footer_mergin {
     margin-top: 110px;

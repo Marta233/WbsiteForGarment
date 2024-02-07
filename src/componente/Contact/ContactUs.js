@@ -64,25 +64,22 @@ function ContactUs() {
           </div>
         </div>
       </div>
-      <div className="container contact_info"
-      style={{
-                fontSize: "2rem",
-                color: "red",
-                
-             
-              }}
+      <div
+        className="container contact_info"
+        style={{
+          fontSize: "2rem",
+          color: "red",
+        }}
       >
         <div className="row iconsaddress">
           <div className="col-12 col-lg-4 col-sm-4  icons1">
-            <FontAwesomeIcon 
+            <FontAwesomeIcon
               icon={faMapMarkerAlt}
               style={{
                 fontSize: "2rem",
                 color: "red",
-                marginLeft: '100px'
-             
+                marginLeft: "100px",
               }}
-           
             />{" "}
             <h5>Address</h5>
             <p>Kolfe, Efoyta Market place, 4th Flore</p>
@@ -93,9 +90,8 @@ function ContactUs() {
               style={{
                 fontSize: "2rem",
                 color: "red",
-                marginLeft: '100px'
+                marginLeft: "100px",
               }}
-             
             />{" "}
             <h5>Email and Phone</h5>
             <p>example@gmail.com</p>
@@ -107,13 +103,12 @@ function ContactUs() {
               style={{
                 fontSize: "2rem",
                 color: "red",
-                marginLeft: '110px'
+                marginLeft: "110px",
               }}
               className="handshack"
             />
             <h5>Stay In Touch</h5>
-            <p 
-            >
+            <p>
               {" "}
               <a
                 href="https://facebook.com"
@@ -125,7 +120,7 @@ function ContactUs() {
                   style={{
                     fontSize: "1.5rem",
                     color: "#3b5998",
-                    marginLeft: '100px'
+                    marginLeft: "100px",
                   }}
                   className="fontaws2"
                 />
@@ -136,8 +131,7 @@ function ContactUs() {
                   style={{
                     fontSize: "1.5rem",
                     color: "#0088cc",
-                    paddingLeft: "30px"
-                  
+                    paddingLeft: "30px",
                   }}
                   className="fontaws1"
                 />
@@ -149,7 +143,11 @@ function ContactUs() {
               >
                 <FontAwesomeIcon
                   icon={faInstagram}
-                  style={{ fontSize: "1.5rem", color: "#e4405f", paddingLeft: "30px" }}
+                  style={{
+                    fontSize: "1.5rem",
+                    color: "#e4405f",
+                    paddingLeft: "30px",
+                  }}
                 />
               </a>
             </p>

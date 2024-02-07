@@ -617,7 +617,7 @@ border-top: 6px solid #FF4400;
     position: relative; /* Needed for absolute positioning of the pseudo-element */
 }
 .featured-product{
-    width: 100%;
+    max-width: 100%;
 }
 
 
