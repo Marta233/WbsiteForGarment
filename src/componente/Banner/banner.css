@@ -4,12 +4,12 @@
     margin: 0;
 }
 body {
-    overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 .banner {
     position: relative;
     text-align: center;

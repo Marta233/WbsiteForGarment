@@ -28,7 +28,7 @@ body {
       background-image: url(../../assets//images/CHEC/ABT.avif)
   }
   .aboutmaincontainer{
-    max-width: 100%;
+    width: 100%;
   }
   .page-heading {
       padding: 210px 0px 130px 0px;

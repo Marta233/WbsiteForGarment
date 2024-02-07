@@ -40,9 +40,7 @@ html {
     height: 100%;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+
 
 @media screen and (prefers-reduced-motion: reduce) {
     html {
@@ -551,7 +549,7 @@ border-top: 6px solid #FF4400;
     width: 24px;
 }
 .paragraph-style {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.7;
     max-width: 100%;
     text-align: center;
@@ -617,7 +615,7 @@ border-top: 6px solid #FF4400;
     position: relative; /* Needed for absolute positioning of the pseudo-element */
 }
 .featured-product{
-    max-width: 100%;
+    width: 100%;
 }
 
 
