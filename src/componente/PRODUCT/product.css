@@ -616,6 +616,9 @@ border-top: 6px solid #FF4400;
     text-decoration: none; /* Remove the default underline style */
     position: relative; /* Needed for absolute positioning of the pseudo-element */
 }
+.featured-product{
+    width: 100%;
+}
 
 
 

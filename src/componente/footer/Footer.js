@@ -19,23 +19,23 @@ export default function MyFooter() {
           <div className="lists">
             <h5 className="text-white mb-3">Sitemap</h5>
             <ul className="footer-menu ">
-            <li className="footer-menu-item">
+              <li className="footer-menu-item">
                 <Link to="/" className="footer-menu-link">
                   Home
                 </Link>
               </li>
               <li className="footer-menu-item">
-              <Link to="/About" className="footer-menu-link">
+                <Link to="/About" className="footer-menu-link">
                   About Us
                 </Link>
               </li>
               <li className="footer-menu-item">
-              <Link to="/ProductDetails" className="footer-menu-link">
+                <Link to="/ProductDetails" className="footer-menu-link">
                   Product List
                 </Link>
               </li>
               <li className="footer-menu-item">
-              <Link to="/Contactus" className="footer-menu-link">
+                <Link to="/Contactus" className="footer-menu-link">
                   Contact Us
                 </Link>
               </li>
