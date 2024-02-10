@@ -7,22 +7,10 @@ https://templatemo.com/tm-546-sixteen-clothing
 */
 body {
     font-family: 'Poppins', sans-serif;
-
+    overflow-x: hidden;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-  .section-heading {
-      text-align: left;
-      margin-bottom: 60px;
-      border-bottom: 1px solid #eee;
-  }
-  
-  .section-heading h2 {
-      font-size: 28px;
-      font-weight: 400;
-      color: #1e1e1e;
-      margin-bottom: 15px;
   }
   .about-heading {
       background-image: url(../../assets//images/CHEC/ABT.avif)
@@ -129,7 +117,7 @@ body {
   }
  .aboutImg1,
  .aboutImg2 {
-     max-width: 90%;
+     width: 50%;
      /* Ensure images don't exceed their parent container */
      height: auto;
      /* Maintain aspect ratio */
@@ -154,6 +142,7 @@ body {
 
  
   .AboutMainContaint {
+    width: 100%;
       position: relative;
       padding-top: 30px;
       padding-bottom: 60px;
@@ -174,6 +163,9 @@ body {
   }
   .Vision{
     margin-top: 100px;
+  }
+  .Vision1{
+    margin-top: 130px;
   }
 
    h2 {
@@ -220,10 +212,10 @@ body {
         }
         .ParagraphMain .paragraphbottom2 {
             margin-left: 60px;
-            width: 85%;
+            width: 100%;
         }
                  .aboutVision1 {
-                     width: 60%;
+                     width: 100%;
                      display: block;
                      margin-left: 300px;
                      position: relative;
@@ -241,7 +233,8 @@ body {
      /* Green background color */
      border: none;
      /* White text color */
-     padding: 10px 190px;
+     width: 100%;
+     padding: 10px;
      /* Add some padding */
      text-align: center;
      text-decoration: none;
@@ -280,13 +273,13 @@ body {
   }
    @media (max-width: 480px) {
 .aboutVision1 {
-        width: 70%;
+        width: 100%;
         display: block;
        margin: auto;
        top: 60px;
     }
          .aboutVision2 {
-             width: 70%;
+             width: 100%;
              display: block;
              margin: auto;
              top: 150px;
@@ -295,17 +288,20 @@ body {
          .Vision h2{
             margin-top:-100px
          }
+         .Vision1 h2{
+            margin-top:-100px
+         }
                  .aboutImg1,
                  .aboutImg2 {
-                width:90%;
+                width:100%;
                  }
                  .aboutVision2 p {
-                    width: 200%;
+                    width: 100%;
                     margin: auto;
                     padding: 30px 700px;
                  }
                                  .aboutVision2 p {
-                                     width: 400%;
+                                     width: 100%;
                                      margin: auto;
                                      padding: 30px 0;
                                  }
@@ -318,47 +314,57 @@ body {
                                                                  }
                   
    }
-
-
-
-
         @media (max-width: 993px) {
+         .Vision p{
+                padding: 0 25px;
+              }
+              .Vision1 p{
+                padding: 0 25px;
+                padding-bottom: 30px;
+              }
+            .aboutVision1::after {
+                left: 50%;
+              transform: translateX(-50%);
+                width: 50%;
+                border-bottom: 4px solid #f33f3f;
+                /* Adjust space above the line */
+                margin-bottom: -45px;
+                /* Adjust space below the line */
+            }
+            .AboutMainContaint::before {
+                
+                left: 50%;
+                transform: translateX(-50%);
+                width: 50%;
+                /* Adjust the width of the border line */
+                border-bottom: 4px solid #f33f3f;
+            }
             .aboutVision1 {
-                width: 70%;
+                width: 100%;
                 display: block;
                 margin: auto;
-                top: 60px;
+                top: 30px;
             }
     
             .aboutVision2 {
-                width: 70%;
+                width: 100%;
                 display: block;
                 margin: auto;
-                top: 150px;
+                top: 30px;
+                bottom: 30px;
                 position: relative;
             }
-    
+    .aboutVision2 h2{
+        margin-top: -90px;
+    }
             .Vision h2 {
-                margin-top: -100px
+                margin-top: -50px;
+                margin-bottom: 25px;
             }
-    
-            .aboutImg1,
-            .aboutImg2 {
-                width: 90%;
+            .Vision1 h2 {
+                margin-top: -50px;
+                margin-bottom: 25px;
             }
-    
-            .aboutVision2 p {
-                width: 200%;
-                margin: auto;
-                padding: 30px 700px;
-            }
-    
-            .aboutVision2 p {
-                width: 400%;
-                margin: auto;
-                padding: 30px 0;
-            }
-    
             .MainLeadership {
                 margin-top: 200px;
             }
