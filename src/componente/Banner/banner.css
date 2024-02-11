@@ -1,5 +1,4 @@
 /* Banner Style */
-
 body {
     font-family: 'Poppins', sans-serif;
     text-rendering: optimizeLegibility;
@@ -10,86 +9,75 @@ body {
 .banner {
     width: 100%;
 }
+
 .banner-item {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    
-}
-.banner-item-01 {
-    background-image: url('../../assets/images/unsplash/ban.avif'); 
-}
-.banner-item-02 {
-    background-image: url('../../assets/images/CHEC/A1.jpg'); 
-}
-.banner-item-03 {
-    background-image: url('../../assets/images/slider_img1.jpg'); 
 }
 
-.banner-item .text-content {
+.banner-item-01 {
+    background-image: url('../../assets/images/unsplash/ban.avif');
+}
+
+.banner-item-02 {
+    background-image: url('../../assets/images/CHEC/A1.jpg');
+}
+
+.banner-item-03 {
+    background-image: url('../../assets/images/slider_img1.jpg');
+}
+
+.text-content {
     text-align: center;
     width: 100%;
     color: #fff;
-}
-.text-content{
     margin-top: 180px;
+    /* Default margin-top */
 }
+
 .text-content h2 {
-color: #f33f3f;
+    color: #f33f3f;
     font-size: 38px;
     text-transform: uppercase;
     font-weight: 700;
 }
+
 .text-content h4 {
-	color: #fff;
-	font-size: 45px;
+    color: #fff;
+    font-size: 45px;
     margin-bottom: 65px;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
-}
-@media (max-width: 768px) {
-    .banner .text-content {
-		width: 100%;
-	}
-        .banner-item .text-content {
-            text-align: center;
-            width: 100%;
-            color: #fff;
-        }
-    
-        .text-content {
-            margin-top: 150px;
-        }
-        .text-content h2 {
-            color: #f33f3f;
-            font-size: 28px;
-            text-transform: uppercase;
-            font-weight: 700;
-        }
-    
-        .text-content h4 {
-            color: #fff;
-            font-size: 35px;
-            margin-bottom: 65px;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-        }
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
-/* Style for your custom dots */
+@media (max-width: 768px) {
+    .text-content {
+        margin-top: 150px;
+        /* Adjusted margin-top for smaller screens */
+    }
+
+    .text-content h2 {
+        font-size: 28px;
+    }
+
+    .text-content h4 {
+        font-size: 35px;
+    }
+}
 .slick-dots .custom-dot {
     width: 10px;
     height: 10px;
     background-color: #000;
     border: none;
-    border-radius: 90%;
-    margin-right: 5px;
-  position: relative;
+    border-radius: 100%;
+    position: relative;
     filter: blur(2px);
     transition: filter 0.3s ease;
     margin-top: -40px;
     /* Move all dots upward */
 }
+
 /* Override styles for the active dot */
 .slick-dots .custom-dot.active {
     background-color: #fff !important;
