@@ -51,8 +51,7 @@ color: #f33f3f;
 }
 @media (max-width: 768px) {
     .banner .text-content {
-		width: 90%;
-		margin-left: 5%;
+		width: 100%;
 	}
         .banner-item .text-content {
             text-align: center;
