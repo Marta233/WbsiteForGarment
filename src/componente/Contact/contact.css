@@ -483,9 +483,7 @@ body{
         padding-bottom: 5px;
         font-size: 20px;
     }
-    .iconsaddress{
-        padding-left: 10px;
-    }
+   
 }
 
 @media (max-width: 767px) {
@@ -539,9 +537,7 @@ body{
         padding-bottom: 5px;
         font-size: 20px;
     }
-    .iconsaddress{
-        padding-left: 125px;
-    }
+ 
     .icons3 h5{
         margin-left: -20px;
         padding-bottom: 5px;
@@ -554,4 +550,14 @@ body{
         margin-left: 90px !important;
         margin-top: 15px;
     }
+                 .iconsaddress {
+                     width: 70%;
+                     margin: auto;
+                 }
 }
+@media (max-width: 345px) {
+  .iconsaddress {
+      width: 90%;
+      margin: auto;
+  }
+  }

@@ -580,6 +580,21 @@ border-top: 6px solid #FF4400;
 .aboutredirect1:hover {
     background-color: #f33f3f;
 }
+.aboutredirect2{
+    background-color: rgb(150, 150, 150);
+    max-width: 35%;
+   margin: auto;
+   padding: 10px;
+    font-size: 19px;
+}
+.aboutredirectLink {
+    color: rgb(95, 89, 89) !important;
+    width: 100% !important;
+}
+.aboutredirect2:hover {
+    background-color: #f33f3f;
+}
+
 .aboutredirect1 {
     background-color: rgb(150, 150, 150);
     padding: 15px;
@@ -616,6 +631,7 @@ border-top: 6px solid #FF4400;
 }
 .featured-product{
     width: 100%;
+    margin-bottom: -70px;
 }
 .prolist{
     margin-top: 30px;
@@ -630,7 +646,9 @@ border-top: 6px solid #FF4400;
 }
 
 @media (max-width: 997px) {
-
+.aboutredirect2 {
+        font-size: 15px;
+    }
 
 .firstContainer  {
         max-width: 100%;

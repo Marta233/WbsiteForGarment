@@ -168,8 +168,8 @@ function Product() {
                 our mission will be To drive financial growth......
               </p>
 
-              <div className="aboutredirect1 mt-4">
-                <Link className="aboutredirectLink linkess" to="/About">
+              <div className="aboutredirect2 mt-4">
+                <Link className="aboutredirectLink2" to="/About">
                   Learn More
                   <i className="bi bi-arrow-right ms-2"></i>
                 </Link>
