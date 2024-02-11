@@ -584,11 +584,11 @@ border-top: 6px solid #FF4400;
     background-color: rgb(150, 150, 150);
     padding: 15px;
     margin-top: 25px;
-    max-width: 70%;
 }
 
 .aboutredirectLink {
     color: white !important;
+    width: 100% !important;
 }
 .futureexpan  .aboutredirect1{
    max-width: 20%;
@@ -616,6 +616,9 @@ border-top: 6px solid #FF4400;
 }
 .featured-product{
     width: 100%;
+}
+.featured-product{
+    margin-bottom: -50px;
 }
 
 

@@ -160,7 +160,7 @@ function Product() {
               <h3 className="mb-4 mt-4 font-weight-bold text-uppercase futureexpan-heading">
                 Future Expansion
               </h3>
-              <p className="col-12 mx-auto paragraph-style">
+              <p className="col-12  paragraph-style">
                 Mele Textile PLC's growth is a testament to its commitment to
                 quality and excellence, and as it continues to expand, it
                 remains dedicated to making a lasting impact on the textile

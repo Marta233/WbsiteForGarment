@@ -8,10 +8,10 @@ export default function MyFooter() {
       <div className="container footer_mergin">
         <div className="main_foot">
           <div className="lists">
-            <h4 className="text-white mb-3">
+            <h4 className="text-white">
               <Link to="/">Mele Textile </Link>
             </h4>
-            <p className="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">
+            <p className="copyright-text text-muted mt-lg-5 mb-lg-0">
               Copyright © 2022
             </p>
             <br />

@@ -34,7 +34,7 @@ https://www.tooplate.com/view/2127-little-fashion
 }
 .main_foot{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 90px;
 }
 *{
@@ -158,7 +158,6 @@ a:hover {
 }
 .footer_mergin {
     margin-top: 110px;
-    padding: px;
    
 }
 .site-footer {
@@ -242,19 +241,14 @@ a:hover {
     .main_foot {
         display: block;
         width: 100%;
-        margin: 0px 25px;
+       text-align: center;
     }
+    
     .social .lists{
         padding-top: 1500px;
     }
 }
 
 
-@media screen and (max-width: 350px) {
-    .main_foot {
-      
-        margin: 0px 10px;
-    }
-}
 
 
