@@ -617,18 +617,10 @@ border-top: 6px solid #FF4400;
 .featured-product{
     width: 100%;
 }
-.featured-product{
-    margin-bottom: -50px;
-}
-
-
-
 .prolist{
     margin-top: 30px;
     max-width: 80%;
-   
 }
-
 .Ourpro h6{
     font-size: 14px;
     font-weight: 200;
