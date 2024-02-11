@@ -8,11 +8,9 @@ body {
 }
 
 .banner {
-    position: relative;
-    text-align: center;
+    width: 100%;
 }
 .banner-item {
-    padding: 100px 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
