@@ -12,7 +12,7 @@ body {
     text-align: center;
 }
 .banner-item {
-    padding: 200px 0;
+    padding: 100px 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -29,51 +29,54 @@ body {
 }
 
 .banner-item .text-content {
-    transform: translateY(90%);
     text-align: center;
     width: 100%;
     color: #fff;
 }
-.banner .text-content h4 {
-	color: #f33f3f;
-	font-size: 18px;
-	text-transform: uppercase;
-	font-weight: 700;
+.text-content{
+    margin-top: 180px;
 }
-
-.banner .text-content h2 {
+.text-content h2 {
+color: #f33f3f;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.text-content h4 {
 	color: #fff;
-	font-size: 92px;
+	font-size: 45px;
     margin-bottom: 65px;
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 1.5px;
 }
 @media (max-width: 768px) {
     .banner .text-content {
 		width: 90%;
 		margin-left: 5%;
 	}
-	.banner .text-content h4 {
-		font-size: 22px;
-	}
-
-	.banner .text-content h2 {
-		font-size: 36px;
-		letter-spacing: 0.5px;
-	}
-	.banner-item-01,
-	.banner-item-02,
-	.banner-item-03 {
-		padding: 180px 0px;
-	}
-	.page-heading .text-content h4 {
-		font-size: 22px;
-	}
-
-	.page-heading .text-content h2 {
-		font-size: 36px;
-		letter-spacing: 0.5px;
-	}
+        .banner-item .text-content {
+            text-align: center;
+            width: 100%;
+            color: #fff;
+        }
+    
+        .text-content {
+            margin-top: 150px;
+        }
+        .text-content h2 {
+            color: #f33f3f;
+            font-size: 28px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    
+        .text-content h4 {
+            color: #fff;
+            font-size: 35px;
+            margin-bottom: 65px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
 }
 
 /* Style for your custom dots */
