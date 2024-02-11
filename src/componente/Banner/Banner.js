@@ -15,6 +15,17 @@ function Banner() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
+    responsive: [
+      {
+        breakpoint: 768, // Adjust this breakpoint as needed
+        settings: {
+          arrows: false, // Hide arrows on smaller screens if necessary
+          dots: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
     customPaging: function (i) {
       return (
         <button
