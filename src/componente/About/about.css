@@ -19,7 +19,7 @@ body {
     width: 100%;
   }
   .page-heading {
-      padding: -120px 0px 130px 0px;
+      padding: 100px 0px 130px 0px;
       text-align: center;
       background-position: center center;
       background-repeat: no-repeat;
@@ -366,8 +366,12 @@ body {
                 margin-bottom: 25px;
             }
             .MainLeadership {
-                margin-top: 200px;
+                margin-top: 70px;
             }
+            .Leaders{
+                margin-top: 15px;
+            }
+            
     
         }
   
